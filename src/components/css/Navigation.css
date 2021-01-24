@@ -1,0 +1,20 @@
+.bg-sigblue{
+  background-color: #00D5FF;
+}
+*{
+  font-family: 'Karla', sans-serif;
+}
+.nav-item{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+.navbar-nav{
+  margin: 0;
+}
+.navbar{
+ padding:0 !important;
+  padding: 0 !important;
+}
+.navbar-brand{
+  padding: 0.5rem 1rem; 
+}

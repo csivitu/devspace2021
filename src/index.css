@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.mainbgcolor{
+  background-color: black;
+}
+/* 
+  Main two fonts used
+  font-family: 'Karla', sans-serif;
+  font-family: 'Lato', sans-serif;
+*/
