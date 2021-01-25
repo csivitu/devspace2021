@@ -10,13 +10,13 @@ function home(props) {
     return (
         <div style={{backgroundColor: 'black',color:'white'}}>
             <Container>
-                <Row>
+                <Row className="justify-content-center">
                     <Col>
                         <img src={Devspacejumbo} alt ="Devspace"/>
                     </Col>
                 </Row>
-                <Row className="">
-                <Col classname="text-center">
+                <Row className="justify-content-center">
+                <Col>
                     <h3>21<sup>st</sup> February, 2021</h3>
                 </Col>
                 </Row>

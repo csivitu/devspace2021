@@ -6,7 +6,7 @@ import Home from './sections/home'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode
+  <React.StrictMode>
       <Navigation />
       <Home/>
   </React.StrictMode>,

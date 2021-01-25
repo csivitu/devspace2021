@@ -2,11 +2,12 @@
   background-color: #00D5FF;
 }
 *{
-  font-family: 'Karla', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .nav-item{
-  padding-top: 1%;
-  padding-bottom: 1%;
+  margin: 3% 5%;
+  align-self: center;
+  vertical-align: center;
 }
 .navbar-nav{
   margin: 0;
@@ -17,4 +18,20 @@
 }
 .navbar-brand{
   padding: 0.5rem 1rem; 
+}
+.bg-black{
+  background-color: black;
+}
+#registerbutton{
+  border: white 2px solid;
+  padding: 14px 20px;
+  transition: 0.3s;
+}
+#registerbutton:hover{
+  background-color: #00D5FF;
+  color: black!important;
+  border: #00D5FF 2px solid;
+}
+.nav-link{
+  color: white !important;
 }
