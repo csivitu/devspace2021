@@ -4,9 +4,10 @@ import './index.css';
 import Navigation from './components/Navigation';
 import Home from './sections/home'
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <React.StrictMode style={{backgroundColor: 'purple'}}>
       <Navigation />
       <Home/>
   </React.StrictMode>,
