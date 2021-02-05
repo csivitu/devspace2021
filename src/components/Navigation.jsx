@@ -9,7 +9,7 @@ import NavBarBrand from '../img/DevspaceJumbotron.svg'
 export default function Navigation() {
   return (
     <div>
-      <NavBar bg="black" variant="dark">
+      <NavBar bg="black" variant="dark" fixed="top">
         <Container fluid>
           
             <NavBar.Brand>

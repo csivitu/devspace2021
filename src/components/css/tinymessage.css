@@ -1,0 +1,14 @@
+#title{
+    color: #00D5FF;
+    font-family: 'Lato', sans-serif;
+}
+#main{
+    background-color : black;
+    border-radius: 12px;
+}
+#message{
+    color: white;
+}
+.snippet-conteiner{
+    padding: 3% 4%;
+}

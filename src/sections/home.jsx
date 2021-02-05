@@ -10,7 +10,7 @@ import './css/home.css'
 
 function home(props) {
     return (
-        <Jumbotron style={{backgroundColor: '#141414',color:'white'}} className="h-100" fluid>
+        <Jumbotron style={{}} className="h-100" fluid>
             <Container>
                 <Row className="justify-content-center" style={{height: '40%'}}>
                     <Col className="text-center">
@@ -32,7 +32,7 @@ function home(props) {
                 </Row>
                 <Row className="justify-content-center">
                     <Col lg={6}>
-                        <h6 className="text-center">
+                        <h6 className="text-center karla">
                             Devspace 2018 was South India's largest student developers' conference with a lorem ipsum hack foofall of 800 participants
                         </h6>
                     </Col>
