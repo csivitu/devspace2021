@@ -30,3 +30,22 @@
     color: white !important;
     padding: 0;
 }
+
+hr {
+    width: 2px;
+    height: 56px;
+    background-color: #FFFAFF;
+}
+
+/* stying changes for navbar on medium and smaller screens */
+@media only screen and (max-width: 992px) {
+    .nav-item {
+        margin: 1rem;
+    }
+
+    hr {
+        height: 2px;
+        width: 6.5rem;
+        background-color: #FFFAFF;
+    }
+}

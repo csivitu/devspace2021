@@ -39,13 +39,7 @@ export default function Navigation() {
                             <Nav.Link>Contacts</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <hr
-                                style={{
-                                    width: '2px',
-                                    height: '56px',
-                                    backgroundColor: '#FFFAFF',
-                                }}
-                            />
+                            <hr/>
                         </Nav.Item>
                         <Nav.Item>
                             <Button id="registerbutton" className="secondary-button">REGISTER</Button>
