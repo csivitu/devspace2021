@@ -1,0 +1,32 @@
+/* .bg-sigblue {
+    background-color: #00d5ff;
+} */
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-item {
+    margin: 0 1rem;
+}
+
+.nav-item > a {
+    padding: 0;
+}
+
+.bg-black {
+    background-color: black;
+}
+/* #registerbutton {
+    border: white 2px solid;
+    padding: 14px 20px;
+    transition: 0.3s;
+}
+#registerbutton:hover {
+    background-color: #00d5ff;
+    color: black !important;
+    border: #00d5ff 2px solid;
+} */
+.nav-link {
+    color: white !important;
+    padding: 0;
+}

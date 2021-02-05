@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainbgcolor{
+  background-color: black;
+}
+
+.secondary-button {
+  background-color: black !important;
+  border: white 2px solid;
+  padding: 14px 20px;
+  transition: 0.3s;
+}
+
+.secondary-button:hover {
+  background-color: #00d5ff !important;
+  color: black !important;
+  border: #00d5ff 2px solid;
+}
