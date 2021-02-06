@@ -9,7 +9,6 @@
 }
 .container-fluid{
     padding: 0;
-    background-color: black;
 }
 .carousel,.item,.active{height:100%;}
 .carousel-inner{height:100%;}

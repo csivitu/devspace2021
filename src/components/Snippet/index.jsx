@@ -1,6 +1,5 @@
 import React from 'react';
 import './tinymessage.css'
-import '../../fontsizes.css'
 import {Container,Row,Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const tinymessage = (props) => (

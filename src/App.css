@@ -1,0 +1,74 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Lato',sans-serif;
+    overflow-x: hidden;
+}
+
+/* .mainbgcolor {
+    background-color: black;
+} */
+
+/*BUTTONS*/
+
+button:focus, a:focus {
+    outline: none;
+}
+
+.secondary-button {
+    background-color: black !important;
+    border: white 2px solid !important;
+    padding: 14px 20px !important;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.secondary-button:hover {
+    background-color: #00d5ff !important;
+    color: black !important;
+    border: #00d5ff 2px solid;
+}
+
+.primary-button {
+    background-color: #00d5ff  !important;
+    padding: 14px 20px !important;
+    color: black !important;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.primary-button:hover {
+    background-color: #57e3ff !important;
+}
+
+/*UTILITY CLASSES*/
+.white {
+    color: white !important;
+}
+
+
+/* FONT SIZES*/
+
+@media only screen and (min-width: 1920px) {
+    html,
+    body {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 813px) {
+    html,
+    body {
+        font-size: 12px;
+    }
+
+    button {
+        font-size: 15px !important;
+    }
+}
+
+

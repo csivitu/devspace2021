@@ -1,7 +1,5 @@
 import './styles.css';
 
-import '../../fontsizes.css';
-
 import { Navbar, Nav, Button } from 'react-bootstrap';
 
 import NavbarBrand from '../../img/DevspaceJumbotron.svg';
@@ -39,16 +37,10 @@ export default function Navigation() {
                             <Nav.Link>Contacts</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <hr
-                                style={{
-                                    width: '2px',
-                                    height: '56px',
-                                    backgroundColor: '#FFFAFF',
-                                }}
-                            />
+                            <hr/>
                         </Nav.Item>
                         <Nav.Item>
-                            <Button id="registerbutton" className="">REGISTER</Button>
+                            <Button id="registerbutton" className="secondary-button">REGISTER</Button>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
