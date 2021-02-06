@@ -32,6 +32,10 @@ hr {
         margin: 1rem;
     }
 
+    nav {
+        background-color: black !important;
+    }
+
     hr {
         height: 2px;
         width: 6.5rem;
