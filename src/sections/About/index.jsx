@@ -1,16 +1,16 @@
 import React from 'react';
 import {Container,Row,Col,Carousel} from 'react-bootstrap'
-import './css/about.css'
-import Snippet from '../components/tinymessage'
-import caroselitem1 from '../img/home-jumbotron-bg.png';
-
+import './about.css'
+import Snippet from '../../components/Snippet' 
+import caroselitem1 from '../../img/home-jumbotron-bg.png';
+import 'bootstrap/dist/css/bootstrap.min.css'
 const data = [{title: 'HACKATHON',message: 'fsdoifjopisdjfsdjfopasjfpojksadopf\nksadpoisadjfoisjfioasjdfjsfjspofdfdaf       asedfsdfsdasfadfasdfsdfsdfsdf'},
             {title: 'HACKATHON',message: 'fsdoifjopisdjfsdjfopasjfpojksadopf\nksadpoisadjfoisjfioasjdfjsfjspofdfdaf       asedfsdfsdasfadfasdfsdfsdfsdf'},
             {title: 'HACKATHON',message: 'fsdoifjopisdjfsdjfopasjfpojksadopf\nksadpoisadjfoisjfioasjdfjsfjspofdfdaf       asedfsdfsdasfadfasdfsdfsdfsdf'}]
 export default function About() {
     return (
-        <Container fluid>
-           <Row>
+        <Container fluid className="vw-100">
+           <Row id="parentRow">
                 <Col md={6} id="left">
                     <Container>
                             {data.map((element,index)=>(
