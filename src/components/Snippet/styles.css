@@ -1,16 +1,14 @@
 #title{
     color: #00D5FF;
 }
-#main{
+
+#main {
     background-color : black;
     border-radius: 12px;
 }
-#message{
+
+#message {
     color: white;
     font-family: 'Poppins',sans-serif;
     font-weight: 400;
-    font-size: 1.33rem;
-}
-.snippet-conteiner{
-    padding: 3% 4%;
 }
