@@ -11,9 +11,10 @@
     padding: 0;
 }
 
-.bg-black {
-    background-color: black;
+.scroll {
+    background-color: black !important;
 }
+
 
 .nav-link {
     color: white !important;

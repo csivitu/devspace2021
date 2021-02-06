@@ -1,13 +1,11 @@
 import React from 'react';
 import {Row, Container,Col, Button, Image} from 'react-bootstrap'
 import Devspacejumbo from '../../img/DevspaceJumbotron.svg';
-import JumboBg from '../../img/home-jumbotron-bg.png';
 import './styles.css'
 
 function home(props) {
     return (
         <Container className="home-section vh-100 vw-100 white" fluid>
-            {/* <img src={JumboBg} id="jumbobg" alt="DEVSPACE"/> */}
             <Container fluid className="d-flex flex-column justify-content-center align-items-center w-100 h-100">
                 <Row className="justify-content-center mt-5">
                     <Image src={Devspacejumbo} alt="Devspace" className="mw-75 devspace-logo" fluid/>
