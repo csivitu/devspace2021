@@ -7,6 +7,7 @@ body {
     font-size: 16px;
     font-family: 'Lato',sans-serif;
     overflow-x: hidden;
+    background-color: #00D5FF !important;
 }
 
 /* .mainbgcolor {
@@ -46,6 +47,7 @@ button:focus, a:focus {
 }
 
 /*UTILITY CLASSES*/
+
 .white {
     color: white !important;
 }
