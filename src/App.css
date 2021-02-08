@@ -10,10 +10,6 @@ body {
     background-color: #00D5FF !important;
 }
 
-/* .mainbgcolor {
-    background-color: black;
-} */
-
 /*BUTTONS*/
 
 button:focus, a:focus {
@@ -21,7 +17,7 @@ button:focus, a:focus {
 }
 
 .secondary-button {
-    background-color: black !important;
+    background-color: #141414 !important;
     border: white 2px solid !important;
     padding: 14px 20px !important;
     border-radius: 8px;
@@ -49,7 +45,11 @@ button:focus, a:focus {
 /*UTILITY CLASSES*/
 
 .white {
-    color: white !important;
+    color: #FFFAFF !important;
+}
+
+.black-bg {
+    background-color: #141414 !important;
 }
 
 
