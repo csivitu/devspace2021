@@ -6,7 +6,7 @@ import Card from '../components/Card';
 import  'bootstrap/dist/css/bootstrap.min.css'
 const talks = () => {
     return (
-        <div className="w-100 h-100" style={{backgronudColor: '#00D5FF'}}>
+        <div className="w-100 h-100" style={{backgronudColor: '#00D5FF',paddingBottom: '150px'}}>
             <Container style={{marginTop: '200px'}}>
                 <Row className="justify-content-center">
                     <h1 style={{color: '#141414'}}><b>Talks</b></h1>
@@ -17,24 +17,24 @@ const talks = () => {
             </Container>
             <Container fluid style={{marginTop:'100px'}}>
                <Row className="justify-content-around mt-5">
-                <Col sm={10} md={3}>
+                <Col sm={10} md={3} >
                     <Card/>
                 </Col>
-                <Col sm={10} md={3}>
+                <Col sm={10} md={3} className="mt-5">
                     <Card/>
                 </Col>
-                <Col sm={12} md={3}>
+                <Col sm={12} md={3} className="mt-5">
                     <Card/>
                 </Col>
                </Row>
                <Row className="justify-content-around mt-5">
-               <Col sm={12} md={3}>
+               <Col sm={12} md={3} className="mt-5">
                     <Card/>
                 </Col>
-                <Col sm={12} md={3}>
+                <Col sm={12} md={3} className="mt-5">
                     <Card/>
                 </Col>
-                <Col sm={12} md={3}>
+                <Col sm={12} md={3} className="mt-5">
                     <Card/>
                 </Col>
                </Row>

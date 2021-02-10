@@ -54,7 +54,7 @@ export default function Navigation() {
                             <Nav.Link>Contacts</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <hr />
+                            <hr id="divider"/>
                         </Nav.Item>
                         <Nav.Item>
                             <Button
