@@ -23,7 +23,7 @@ const data = [
 ];
 export default function About() {
     return (
-        <Container fluid className="vw-100">
+        <Container fluid className="vw-100" id="about">
             <Row id="parentRow">
                 <Col md={6} id="left">
                     {data.map((element, index) => (

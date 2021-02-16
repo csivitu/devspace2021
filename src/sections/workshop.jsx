@@ -17,7 +17,7 @@ const workshop = () => {
             </Container>
             <Container fluid style={{marginTop:'100px'}}>
                <Row className="justify-content-around mt-5">
-                <Col sm={7} lg={3}>
+                <Col sm={7} lg={3} className="mt-5">
                     <Card/>
                 </Col>
                 <Col sm={7} lg={3} className="mt-5">

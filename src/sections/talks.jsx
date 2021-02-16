@@ -17,7 +17,7 @@ const talks = () => {
             </Container>
             <Container fluid style={{marginTop:'100px'}}>
                <Row className="justify-content-around mt-5">
-                <Col sm={10} md={3} >
+                <Col sm={10} md={3} className="mt-5">
                     <Card/>
                 </Col>
                 <Col sm={10} md={3} className="mt-5">
