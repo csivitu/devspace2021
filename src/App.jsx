@@ -9,6 +9,7 @@ import Talks from './sections/talks'
 import Hackathon from './sections/Hackathon';
 import Tracks from './sections/Tracks';
 import RegisterNow from './sections/RegisterNow';
+import Gallery from './sections/Gallery';
 import Footer from './sections/footer'
 const App = () => (
 	<>
@@ -20,6 +21,7 @@ const App = () => (
 		<Hackathon />
 		<Tracks/>
 		<RegisterNow/>
+		<Gallery/>
 		<Footer/>
 	</>
 )

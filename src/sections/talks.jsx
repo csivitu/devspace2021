@@ -15,7 +15,7 @@ const talks = () => {
                     <p className="text-muted " style={{fontFamily: 'Lato',fontWeight: '400'}}>from industry-experts</p>
                 </Row>
             </Container>
-            <Container fluid style={{marginTop:'100px'}}>
+            <Container fluid style={{marginTop:'5vh'}}>
                <Row className="justify-content-around mt-5">
                 <Col sm={10} md={3} className="mt-5">
                     <Card/>

@@ -15,7 +15,7 @@ const workshop = () => {
                     <p className="text-muted " style={{fontFamily: 'Lato',fontWeight: '400'}}>to learn and discover new skills</p>
                 </Row>
             </Container>
-            <Container fluid style={{marginTop:'100px'}}>
+            <Container fluid style={{marginTop:'5vh'}}>
                <Row className="justify-content-around mt-5">
                 <Col sm={7} lg={3} className="mt-5">
                     <Card/>
