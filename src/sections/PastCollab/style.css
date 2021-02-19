@@ -1,0 +1,6 @@
+@media (min-width:768px){
+    #collabimggrid{
+        width:85%;
+        padding:8vh 10vw!important;
+    }
+}

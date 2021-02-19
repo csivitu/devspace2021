@@ -22,35 +22,35 @@ const Gallery = () => {
             
                 <Row className="justify-content-center">
                     <Col md={3} sm={12}>
-                        <img src={Img1} alt="Image 1" className="img-fluid"/>
+                        <img src={Img1} alt="1" className="img-fluid"/>
                     </Col>
                     <Col md={3} sm={12} className="mt-3 mt-md-0">
-                        <img src={Img2} alt="Image 2" className="img-fluid"/>
+                        <img src={Img2} alt="2" className="img-fluid"/>
                     </Col>
                     <Col md={3} sm={12} className="mt-3 mt-md-0">
-                        <img src={Img3} alt="Image 3" className="img-fluid"/>
+                        <img src={Img3} alt="3" className="img-fluid"/>
                     </Col>
                 </Row>
                 <Row className="justify-content-center mt-3">
                     <Col md={3} sm={12}>
-                        <img src={Img4} alt="Image 4" className="img-fluid"/>
+                        <img src={Img4} alt="4" className="img-fluid"/>
                     </Col>
                     <Col md={3} sm={12}  className="mt-3 mt-md-0">
-                        <img src={Img5} alt="Image 5" className="img-fluid"/>
+                        <img src={Img5} alt="5" className="img-fluid"/>
                     </Col>
                     <Col md={3} sm={12}  className="mt-3 mt-md-0">
-                        <img src={Img6} alt="Image 6" className="img-fluid"/>
+                        <img src={Img6} alt="6" className="img-fluid"/>
                     </Col>
                 </Row>
                 <Row className="justify-content-center  mt-3">
                     <Col md={3} sm={12}>
-                        <img src={Img7} alt="Image 7" className="img-fluid"/>
+                        <img src={Img7} alt="7" className="img-fluid"/>
                     </Col>
                     <Col md={3} sm={12}  className="mt-3 mt-md-0">
-                        <img src={Img8} alt="Image 8" className="img-fluid"/>
+                        <img src={Img8} alt="8" className="img-fluid"/>
                     </Col>
                     <Col md={3} sm={12}  className="mt-3 mt-md-0">
-                        <img src={Img9} alt="Image 9" className="img-fluid"/>
+                        <img src={Img9} alt="9" className="img-fluid"/>
                     </Col>
                 </Row>
             

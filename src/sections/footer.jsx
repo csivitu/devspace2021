@@ -22,9 +22,9 @@ const Footer = () => {
                     <p>Phone -</p>
                     <h3 style={{color: '#00D5FF'}}><b>SOCIAL</b></h3>
                     <div className="d-inline-flex flex-row justify-content-start">
-                        <a href="https://www.facebook.com/csivitu"><img src="http://static.csivit.com/images/ccs/facebook.svg" width="45%"  height="45%" style={{fill:"white"}}/></a>
-                        <a href="https://www.instagram.com/csivitu"><img src="http://static.csivit.com/images/ccs/insta.svg" width="45%"  height="45%"/></a>
-                        <a href="https://www.twitter.com/csivitu"><img src="http://static.csivit.com/images/ccs/twitter.svg" width="45%"  height="45%"/></a>
+                        <a href="https://www.facebook.com/csivitu"><img src="http://static.csivit.com/images/ccs/facebook.svg" width="45%"  height="45%" style={{fill:"white"}} alt="Facebook"/></a>
+                        <a href="https://www.instagram.com/csivitu"><img src="http://static.csivit.com/images/ccs/insta.svg" width="45%"  height="45%" alt="Instagram"/></a>
+                        <a href="https://www.twitter.com/csivitu"><img src="http://static.csivit.com/images/ccs/twitter.svg" width="45%"  height="45%" alt="Twitter"/></a>
                     </div>
                     <p className="mt-4"><i><u>Download Brochure</u></i></p>
                     <p><i><u>View Code of Conduct</u></i></p>

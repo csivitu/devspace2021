@@ -10,7 +10,8 @@ import Hackathon from './sections/Hackathon';
 import Tracks from './sections/Tracks';
 import RegisterNow from './sections/RegisterNow';
 import Gallery from './sections/Gallery';
-import Footer from './sections/footer'
+import Footer from './sections/footer';
+import Collabs from './sections/PastCollab';
 const App = () => (
 	<>
 		<Navigation />
@@ -21,6 +22,7 @@ const App = () => (
 		<Hackathon />
 		<Tracks/>
 		<RegisterNow/>
+		<Collabs/>
 		<Gallery/>
 		<Footer/>
 	</>

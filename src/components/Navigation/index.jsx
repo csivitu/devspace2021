@@ -25,7 +25,7 @@ export default function Navigation() {
     return (
         <div>
             <Navbar
-                scrolling
+                scrolling = "true"
                 bg="black"
                 variant="dark"
                 expand="lg"

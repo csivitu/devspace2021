@@ -6,7 +6,7 @@
     margin-top: 150px;
 }
 .card-img-top{
-    margin-top: -60px;
+    margin-top: -11vh;
     width: 250px;
     height: 250px;
     
@@ -30,6 +30,6 @@
     font-weight: 900;
 }
 #profile{
-    width: 43%;
-    height: 40%;
+    width: 45%;
+    height: 45%;
 }
