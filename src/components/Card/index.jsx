@@ -5,7 +5,7 @@ import './style.css'
 import Profile from '../../img/profile.png';
 const index = (props) => {
     return (
-        <Card className="mt-5">
+        <Card className="mt-5" style={{ maxWidth: "20rem" }}>
                 <Card.Img variant="top" src={Profile} className="float-center rounded-circle mx-auto img-fluid" id="profile"/>
                 <Card.Body>
                     <h4 className="text-center" id="company">IBM</h4>

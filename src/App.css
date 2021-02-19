@@ -49,8 +49,20 @@ button:focus, a:focus {
     color: #FFFAFF !important;
 }
 
+.black {
+    color: #141414 !important   ;
+}
+
+.white-bg {
+    background-color: #FFFAFF !important;
+}
+
 .black-bg {
     background-color: #141414 !important;
+}
+
+.blue-bg {
+    background-color: #00d5ff !important;
 }
 
 h1,h2,h3,h4,h5,h6{
