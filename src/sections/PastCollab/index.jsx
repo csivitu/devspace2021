@@ -22,6 +22,11 @@ import WolframImg from '../../img/pastcollabs/wolfram_lang.png';
 import CloudsploitImg from '../../img/pastcollabs/cloudsploit.png';
 import RoesenfeldImg from '../../img/pastcollabs/rosenfeld.png';
 import IWTMAImg from '../../img/pastcollabs/IWTMA.jpg';
+import AlexaImg from '../../img/pastcollabs/amazon_alexa.png'
+import CodingBImg from '../../img/pastcollabs/coding-blocks.png';
+import GithubImg from '../../img/pastcollabs/github.png'
+import IBMImg from '../../img/pastcollabs/ibm.png';
+import SketchImg from '../../img/pastcollabs/sketch.png';
 import './style.css';
 const pcollabsData = [
     {
@@ -118,6 +123,36 @@ const pcollabsData = [
         name: 'Indian Wind Turbine Manufacturers Association',
         image: IWTMAImg,
         link: 'https://www.indianwindpower.com/',
+
+    },
+    {
+        name: 'Amazon Alexa',
+        image: AlexaImg,
+        link: 'https://developer.amazon.com/en-IN/alexa',
+
+    },
+    {
+        name: 'Coding Blocks',
+        image: CodingBImg,
+        link: 'https://codingblocks.com/',
+
+    },
+    {
+        name: 'Github',
+        image: GithubImg,
+        link: 'https://github.com/',
+
+    },
+    {
+        name: 'IBM',
+        image: IBMImg,
+        link: 'https://www.ibm.com/',
+
+    },
+    {
+        name: 'Sketch',
+        image: SketchImg,
+        link: 'https://www.sketchapp.com/',
 
     }
 ]
