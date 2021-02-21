@@ -12,6 +12,7 @@ import RegisterNow from './sections/RegisterNow';
 import Gallery from './sections/Gallery';
 import Footer from './sections/footer';
 import Collabs from './sections/PastCollab';
+import FAQ from './sections/FAQ';
 const App = () => (
 	<>
 		<Navigation />
@@ -21,10 +22,11 @@ const App = () => (
 		<Talks/>
 		<Hackathon />
 		<Tracks/>
-		<RegisterNow/>
+		<RegisterNow />
+		<FAQ />
 		<Collabs/>
 		<Gallery/>
-		<Footer/>
+		<Footer />
 	</>
 )
 
