@@ -4,8 +4,22 @@ import Container from 'react-bootstrap/Container';
 import { Row, Col, Image } from 'react-bootstrap';
 import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import tracklogo from '../../img/track.png';
-import trackblue from '../../img/trackblue.png';
+
+import healthcareFront from '../../img/healthcare-1.png';
+import healthcareBack from '../../img/healthcare-2.png';
+import educationFront from '../../img/education-1.png';
+import educationBack from '../../img/education-2.png';
+import defenseFront from '../../img/defense-1.png';
+import defenseBack from '../../img/defense-2.png';
+import fintechFront from '../../img/fintech-1.png';
+import fintechBack from '../../img/fintech-2.png';
+import openInnovationFront from '../../img/open-innovation-1.png';
+import openInnovationBack from '../../img/open-innovation-2.png';
+
+import Tada from 'react-reveal/Tada';
+// import tracklogo from '../../img/track.png';
+// import trackblue from '../../img/trackblue.png';
+
 const Tracks = () => {
     return (
         <Container className="pt-5 black-bg text-white" fluid>
@@ -21,42 +35,45 @@ const Tracks = () => {
                 className="d-flex justify-content-center align-items-center py-4"
                 fluid
             >
-                <Row
-                    
-                    className="d-flex justify-content-center align-items-center"
-                >
-                    <Col className="mb-4" >
+                <Row className="d-flex justify-content-center align-items-center">
+                    <Col className="mb-4">
                         <Flippy
                             flipOnHover={true} // default false
                             flipOnClick={false} // default false
                             flipDirection="horizontal" // horizontal or vertical
-                            
                         >
                             <FrontSide>
-                                <Container
-                                    fluid
-                                    style={{ height: '16rem', width: '16rem' }}
-                                    className="blue-bg d-flex flex-column justify-content-around align-items-center"
-                                >
-                                    <Image
-                                        src={tracklogo}
+                                <Tada>
+                                    <Container
+                                        fluid
                                         style={{
-                                            height: '10rem',
-                                            width: '10rem',
+                                            height: '17rem',
+                                            width: '16rem',
                                         }}
-                                    />
-                                    <h3 className="white">HEALTHCARE</h3>
-                                </Container>
+                                        className="blue-bg d-flex flex-column justify-content-around align-items-center"
+                                    >
+                                        <Image
+                                            src={healthcareFront}
+                                            style={{
+                                                height: '10rem',
+                                                width: '10rem',
+                                            }}
+                                        />
+                                        <h3 className="white text-center">
+                                            HEALTHCARE AND SOCIAL RESPONSIBILITY
+                                        </h3>
+                                    </Container>
+                                </Tada>
                             </FrontSide>
                             <BackSide>
                                 <Container
                                     fluid
-                                    style={{ height: '16rem', width: '16rem' }}
+                                    style={{ height: '17rem', width: '16rem' }}
                                     className="white-bg d-flex flex-column justify-content-around align-items-center p-2"
                                 >
                                     <div className="d-flex flex-column justify-content-center align-items-center">
                                         <Image
-                                            src={trackblue}
+                                            src={healthcareBack}
                                             style={{
                                                 height: '2rem',
                                                 width: '2rem',
@@ -64,10 +81,10 @@ const Tracks = () => {
                                             className="mb-2"
                                         />
                                         <h5
-                                            className="black"
+                                            className="black text-center"
                                             style={{ margin: 0 }}
                                         >
-                                            HEALTHCARE
+                                            HEALTHCARE AND SOCIAL RESPONSIBILITY
                                         </h5>
                                         <hr
                                             style={{
@@ -79,10 +96,9 @@ const Tracks = () => {
                                     </div>
                                     <div className="black text-center">
                                         <p>
-                                            The healthcare sector consists of
-                                            businesses that provide medical
-                                            services, manufacture medical
-                                            equipment.
+                                            “With great power comes great
+                                            responsibility”
+                                            <br />- Uncle Ben
                                         </p>
                                     </div>
                                 </Container>
@@ -96,30 +112,37 @@ const Tracks = () => {
                             flipDirection="horizontal" // horizontal or vertical
                         >
                             <FrontSide>
-                                <Container
-                                    fluid
-                                    style={{ height: '16rem', width: '16rem' }}
-                                    className="blue-bg d-flex flex-column justify-content-around align-items-center"
-                                >
-                                    <Image
-                                        src={tracklogo}
+                                <Tada>
+                                    <Container
+                                        fluid
                                         style={{
-                                            height: '10rem',
-                                            width: '10rem',
+                                            height: '17rem',
+                                            width: '16rem',
                                         }}
-                                    />
-                                    <h3 className="white">HEALTHCARE</h3>
-                                </Container>
+                                        className="blue-bg d-flex flex-column justify-content-around align-items-center"
+                                    >
+                                        <Image
+                                            src={educationFront}
+                                            style={{
+                                                height: '10rem',
+                                                width: '10rem',
+                                            }}
+                                        />
+                                        <h3 className="white text-center">
+                                            EDUCATION TECHNOLOGY
+                                        </h3>
+                                    </Container>
+                                </Tada>
                             </FrontSide>
                             <BackSide>
                                 <Container
                                     fluid
-                                    style={{ height: '16rem', width: '16rem' }}
-                                    className="white-bg d-flex flex-column justify-content-around align-items-center p-2"
+                                    style={{ height: '17rem', width: '16rem' }}
+                                    className="white-bg d-flex flex-column justify-content-around align-items-center"
                                 >
-                                    <div className="d-flex flex-column justify-content-center align-items-center">
+                                    <div className="d-flex flex-column justify-content-center align-items-center p-2">
                                         <Image
-                                            src={trackblue}
+                                            src={educationBack}
                                             style={{
                                                 height: '2rem',
                                                 width: '2rem',
@@ -127,10 +150,10 @@ const Tracks = () => {
                                             className="mb-2"
                                         />
                                         <h5
-                                            className="black"
+                                            className="black text-center"
                                             style={{ margin: 0 }}
                                         >
-                                            HEALTHCARE
+                                            EDUCATION TECHNOLOGY
                                         </h5>
                                         <hr
                                             style={{
@@ -142,10 +165,11 @@ const Tracks = () => {
                                     </div>
                                     <div className="black text-center">
                                         <p>
-                                            The healthcare sector consists of
-                                            businesses that provide medical
-                                            services, manufacture medical
-                                            equipment.
+                                            “Technology will not replace great
+                                            teachers but technology in the hands
+                                            of great teachers can be
+                                            transformational ” <br />
+                                            -George Couros
                                         </p>
                                     </div>
                                 </Container>
@@ -159,30 +183,37 @@ const Tracks = () => {
                             flipDirection="horizontal" // horizontal or vertical
                         >
                             <FrontSide>
-                                <Container
-                                    fluid
-                                    style={{ height: '16rem', width: '16rem' }}
-                                    className="blue-bg d-flex flex-column justify-content-around align-items-center"
-                                >
-                                    <Image
-                                        src={tracklogo}
+                                <Tada>
+                                    <Container
+                                        fluid
                                         style={{
-                                            height: '10rem',
-                                            width: '10rem',
+                                            height: '17rem',
+                                            width: '16rem',
                                         }}
-                                    />
-                                    <h3 className="white">HEALTHCARE</h3>
-                                </Container>
+                                        className="blue-bg d-flex flex-column justify-content-around align-items-center"
+                                    >
+                                        <Image
+                                            src={defenseFront}
+                                            style={{
+                                                height: '10rem',
+                                                width: '10rem',
+                                            }}
+                                        />
+                                        <h3 className="white text-center">
+                                            DEFENSE AND AEROSPACE
+                                        </h3>
+                                    </Container>
+                                </Tada>
                             </FrontSide>
                             <BackSide>
                                 <Container
                                     fluid
-                                    style={{ height: '16rem', width: '16rem' }}
+                                    style={{ height: '17rem', width: '16rem' }}
                                     className="white-bg d-flex flex-column justify-content-around align-items-center p-2"
                                 >
                                     <div className="d-flex flex-column justify-content-center align-items-center">
                                         <Image
-                                            src={trackblue}
+                                            src={defenseBack}
                                             style={{
                                                 height: '2rem',
                                                 width: '2rem',
@@ -190,10 +221,10 @@ const Tracks = () => {
                                             className="mb-2"
                                         />
                                         <h5
-                                            className="black"
+                                            className="black text-center"
                                             style={{ margin: 0 }}
                                         >
-                                            HEALTHCARE
+                                            DEFENSE AND AEROSPACE
                                         </h5>
                                         <hr
                                             style={{
@@ -205,10 +236,9 @@ const Tracks = () => {
                                     </div>
                                     <div className="black text-center">
                                         <p>
-                                            The healthcare sector consists of
-                                            businesses that provide medical
-                                            services, manufacture medical
-                                            equipment.
+                                            “Technology is a useful servant but
+                                            a dangerous master.” <br />
+                                            -Christan Lou Lang
                                         </p>
                                     </div>
                                 </Container>
@@ -221,10 +251,7 @@ const Tracks = () => {
                 className="d-flex justify-content-center align-items-center py-4 pb-5"
                 fluid
             >
-                <Row
-                    
-                    className="d-flex justify-content-center align-items-center"
-                >
+                <Row className="d-flex justify-content-center align-items-center">
                     <Col className="mb-4">
                         <Flippy
                             flipOnHover={true} // default false
@@ -232,30 +259,37 @@ const Tracks = () => {
                             flipDirection="horizontal" // horizontal or vertical
                         >
                             <FrontSide>
-                                <Container
-                                    fluid
-                                    style={{ height: '16rem', width: '16rem' }}
-                                    className="blue-bg d-flex flex-column justify-content-around align-items-center"
-                                >
-                                    <Image
-                                        src={tracklogo}
+                                <Tada>
+                                    <Container
+                                        fluid
                                         style={{
-                                            height: '10rem',
-                                            width: '10rem',
+                                            height: '17rem',
+                                            width: '16rem',
                                         }}
-                                    />
-                                    <h3 className="white">HEALTHCARE</h3>
-                                </Container>
+                                        className="blue-bg d-flex flex-column justify-content-around align-items-center"
+                                    >
+                                        <Image
+                                            src={fintechFront}
+                                            style={{
+                                                height: '10rem',
+                                                width: '10rem',
+                                            }}
+                                        />
+                                        <h3 className="white text-center">
+                                            FINTECH AND CYBERSEC
+                                        </h3>
+                                    </Container>
+                                </Tada>
                             </FrontSide>
                             <BackSide>
                                 <Container
                                     fluid
-                                    style={{ height: '16rem', width: '16rem' }}
+                                    style={{ height: '17rem', width: '16rem' }}
                                     className="white-bg d-flex flex-column justify-content-around align-items-center p-2"
                                 >
                                     <div className="d-flex flex-column justify-content-center align-items-center">
                                         <Image
-                                            src={trackblue}
+                                            src={fintechBack}
                                             style={{
                                                 height: '2rem',
                                                 width: '2rem',
@@ -263,10 +297,10 @@ const Tracks = () => {
                                             className="mb-2"
                                         />
                                         <h5
-                                            className="black"
+                                            className="black text-center"
                                             style={{ margin: 0 }}
                                         >
-                                            HEALTHCARE
+                                            FINTECH AND CYBERSEC
                                         </h5>
                                         <hr
                                             style={{
@@ -278,10 +312,9 @@ const Tracks = () => {
                                     </div>
                                     <div className="black text-center">
                                         <p>
-                                            The healthcare sector consists of
-                                            businesses that provide medical
-                                            services, manufacture medical
-                                            equipment.
+                                            “In a world where data is wealth, we
+                                            must safeguard ourselves.”
+                                            <br />- Subham Panda
                                         </p>
                                     </div>
                                 </Container>
@@ -295,30 +328,37 @@ const Tracks = () => {
                             flipDirection="horizontal" // horizontal or vertical
                         >
                             <FrontSide>
-                                <Container
-                                    fluid
-                                    style={{ height: '16rem', width: '16rem' }}
-                                    className="blue-bg d-flex flex-column justify-content-around align-items-center"
-                                >
-                                    <Image
-                                        src={tracklogo}
+                                <Tada>
+                                    <Container
+                                        fluid
                                         style={{
-                                            height: '10rem',
-                                            width: '10rem',
+                                            height: '17rem',
+                                            width: '16rem',
                                         }}
-                                    />
-                                    <h3 className="white">HEALTHCARE</h3>
-                                </Container>
+                                        className="blue-bg d-flex flex-column justify-content-around align-items-center"
+                                    >
+                                        <Image
+                                            src={openInnovationFront}
+                                            style={{
+                                                height: '10rem',
+                                                width: '10rem',
+                                            }}
+                                        />
+                                        <h3 className="white text-center">
+                                            OPEN INNOVATION
+                                        </h3>
+                                    </Container>
+                                </Tada>
                             </FrontSide>
                             <BackSide>
                                 <Container
                                     fluid
-                                    style={{ height: '16rem', width: '16rem' }}
+                                    style={{ height: '17rem', width: '16rem' }}
                                     className="white-bg d-flex flex-column justify-content-around align-items-center p-2"
                                 >
                                     <div className="d-flex flex-column justify-content-center align-items-center">
                                         <Image
-                                            src={trackblue}
+                                            src={openInnovationBack}
                                             style={{
                                                 height: '2rem',
                                                 width: '2rem',
@@ -326,10 +366,10 @@ const Tracks = () => {
                                             className="mb-2"
                                         />
                                         <h5
-                                            className="black"
+                                            className="black text-center"
                                             style={{ margin: 0 }}
                                         >
-                                            HEALTHCARE
+                                            OPEN INNOVATION
                                         </h5>
                                         <hr
                                             style={{
@@ -341,10 +381,11 @@ const Tracks = () => {
                                     </div>
                                     <div className="black text-center">
                                         <p>
-                                            The healthcare sector consists of
-                                            businesses that provide medical
-                                            services, manufacture medical
-                                            equipment.
+                                            “Everybody has a creative potential
+                                            and from the moment you can express
+                                            this creative potential, you can
+                                            start changing the world” <br /> -
+                                            Paulo Coelho
                                         </p>
                                     </div>
                                 </Container>
@@ -354,14 +395,14 @@ const Tracks = () => {
                     {/* <Col className="mb-4">
                         <Container
                             fluid
-                            style={{ height: '16rem', width: '16rem' }}
+                            style={{ height: '17rem', width: '16rem' }}
                             className="blue-bg d-flex flex-column justify-content-around align-items-center"
                         >
                             <Image
                                 src={tracklogo}
                                 style={{ height: '10rem', width: '10rem' }}
                             />
-                            <h3 className="white">HEALTHCARE</h3>
+                            <h3 className="white text-center">HEALTHCARE AND SOCIAL RESPONSIBILITY</h3>
                         </Container>
                     </Col> */}
                 </Row>

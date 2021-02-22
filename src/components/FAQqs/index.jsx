@@ -8,6 +8,7 @@ import {
     Image,
 } from 'react-bootstrap';
 import expandIcon from '../../img/expand.png';
+import collapseIcon from '../../img/collapse.png'
 
 import './styles.css';
 
@@ -20,19 +21,28 @@ function ContextAwareToggle({ children, eventKey, callback }) {
     );
 
     const isCurrentEventKey = currentEventKey === eventKey;
-
-    return (
-        <button
+    
+    if (isCurrentEventKey) {
+        return (
+            <button
             type="button"
-            style={{ backgroundColor: isCurrentEventKey ? 'pink' : 'lavender' }}
             onClick={decoratedOnClick}
         >
-            {children}
+            <Image src={collapseIcon} />
         </button>
-    );
+        )
+    }
+    return (
+        <button
+        type="button"
+        onClick={decoratedOnClick}
+    >
+        <Image src={expandIcon} />
+    </button>
+    )
 }
 
-function Example({ children, eKey }) {
+function Example({ qs, ans, eKey }) {
     return (
         <Card
             style={{
@@ -48,14 +58,12 @@ function Example({ children, eKey }) {
                     fluid
                     className="d-flex justify-content-between align-items-center faq-container"
                 >
-                    <h5>How will I know if I've been registered or not?</h5>
-                    <ContextAwareToggle eventKey={eKey} className="tbutton">
-                        <Image src={expandIcon} />
-                    </ContextAwareToggle>
+                    <h5>{qs}</h5>
+                    <ContextAwareToggle eventKey={eKey} className="tbutton" />
                 </Container>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey={eKey}>
-                <Card.Body as="p">{children}</Card.Body>
+                <Card.Body as="p">{ans}</Card.Body>
             </Accordion.Collapse>
         </Card>
     );

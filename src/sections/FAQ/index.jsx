@@ -3,6 +3,40 @@ import { Col, Container, Row, Accordion } from 'react-bootstrap';
 import Example from '../../components/FAQqs';
 import './styles.css';
 
+const faqs1 = [
+    {
+        qs: 'Who is eligible to participate in the hackathon?',
+        ans: 'Students enrolled in any university from all over the globe are eligible to participate in Devspace 2021.',
+    },
+    {
+        qs: 'Is there a registration fee?',
+        ans: 'No. Devspace 2021 is completely free of cost.',
+    },
+    {
+        qs: 'Is the event online or offline?',
+        ans: 'Your health is our priority. Keeping that in mind, Devspace 2021 is going to be an online event.',
+    },
+    {
+        qs: 'How long is the hackathon?',
+        ans: 'Devspace 2021 is going to last for 36 hours. It’ll also be filled with talks, workshops and 5 thrilling tracks to brainstorm and work on.',
+    },
+];
+
+const faqs2 = [
+    {
+        qs: 'Can I apply without a team?',
+        ans: 'No. Devspace 2021 is a team event. Student teams need a minimum of three fellow students as members but a maximum of six.  ',
+    },
+    {
+        qs: 'Do I need to know how to code and/or have a technical skill to participate?',
+        ans: 'No. Your problem-solving ability is independent of your technical skills. However, if you’d like to increase your knowledge on existing technologies, they will be available through workshops during the hackathon. ',
+    },
+    {
+        qs: 'Do we get food?',
+        ans: 'No, but you get brownie points for registering and getting others to register!',
+    },
+];
+
 const FAQ = () => {
     return (
         <Container fluid className=" p-5 black-bg text-white">
@@ -17,21 +51,9 @@ const FAQ = () => {
             <Row>
                 <Col className="d-flex justify-content-center align-items-center first-faq-column">
                     <Accordion>
-                        <Example eKey="0">
-                            After registering online, you will receive a
-                            confirmation email with transaction details from
-                            csivit. Please check your inbox or write back to us.
-                        </Example>
-                        <Example eKey="1">
-                            After registering online, you will receive a
-                            confirmation email with transaction details from
-                            csivit. Please check your inbox or write back to us.
-                        </Example>
-                        <Example eKey="2">
-                            After registering online, you will receive a
-                            confirmation email with transaction details from
-                            csivit. Please check your inbox or write back to us.
-                        </Example>
+                        {faqs1.map((faq, index) => (
+                            <Example eKey={index+1} qs={faq.qs} ans={faq.ans} />
+                        ))}
                     </Accordion>
                 </Col>
                 {/* <hr style={{
@@ -41,21 +63,9 @@ const FAQ = () => {
                 }}/> */}
                 <Col className="d-flex justify-content-center align-items-center">
                     <Accordion>
-                        <Example eKey="0">
-                            After registering online, you will receive a
-                            confirmation email with transaction details from
-                            csivit. Please check your inbox or write back to us.
-                        </Example>
-                        <Example eKey="1">
-                            After registering online, you will receive a
-                            confirmation email with transaction details from
-                            csivit. Please check your inbox or write back to us.
-                        </Example>
-                        <Example eKey="2">
-                            After registering online, you will receive a
-                            confirmation email with transaction details from
-                            csivit. Please check your inbox or write back to us.
-                        </Example>
+                        {faqs2.map((faq, index) => (
+                            <Example eKey={index+1} qs={faq.qs} ans={faq.ans} />
+                        ))}
                     </Accordion>
                 </Col>
             </Row>

@@ -8,17 +8,17 @@ const data = [
     {
         title: 'HACKATHON',
         message:
-            'fsdoi fjopis djfsd jfop asjf pojksad opf ksadpoisadj foisjfi oasjdf jsfjspof dfdaf asedfs fsdasfadf fsdoi fjopis djfsd jfop asjf pojksad fsdoi fjopis djfsd jfop asjf pojksad ',
+            '36 hours, a team and your ideas. Put your mind to work and use them to solve interesting problems and real world challenges.',
     },
     {
-        title: 'HACKATHON',
+        title: 'TALKS',
         message:
-            'fsdoi fjopis djfsd jfop asjf pojksad opf ksadpoisadj foisjfi oasjdf jsfjspof dfdaf asedfs fsdasfadf fsdoi fjopis djfsd jfop asjf pojksad fsdoi fjopis djfsd jfop asjf pojksad ',
+            'Gain insights into applications of the latest technology brought to you by experts who have excelled across diverse fields of work.',
     },
     {
-        title: 'HACKATHON',
+        title: 'WORKSHOPS',
         message:
-            'fsdoi fjopis djfsd jfop asjf pojksad opf ksadpoisadj foisjfi oasjdf jsfjspof dfdaf asedfs fsdasfadf fsdoi fjopis djfsd jfop asjf pojksad fsdoi fjopis djfsd jfop asjf pojksad ',
+            'Get access to an interactive, hands on experience to learn about the applications of technology in the real world.',
     },
 ];
 export default function About() {

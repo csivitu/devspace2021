@@ -1,13 +1,13 @@
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row'
+import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import DevfolioImg from '../../img/pastcollabs/Devfolio-White.png'
+import DevfolioImg from '../../img/pastcollabs/Devfolio-White.png';
 import MaticImg from '../../img/pastcollabs/matic.png';
 import PSFImg from '../../img/pastcollabs/psf.png';
 import DOceanImg from '../../img/pastcollabs/DigitalOcean.png';
-import CosmosImg from '../../img/pastcollabs/cosmos.png'
+import CosmosImg from '../../img/pastcollabs/cosmos.png';
 import PersistenceImg from '../../img/pastcollabs/persistence.png';
 import FoldImg from '../../img/pastcollabs/fold.png';
 import BalsamiqImg from '../../img/pastcollabs/balsamiq-logo-print.png';
@@ -22,22 +22,23 @@ import WolframImg from '../../img/pastcollabs/wolfram_lang.png';
 import CloudsploitImg from '../../img/pastcollabs/cloudsploit.png';
 import RoesenfeldImg from '../../img/pastcollabs/rosenfeld.png';
 import IWTMAImg from '../../img/pastcollabs/IWTMA.jpg';
-import AlexaImg from '../../img/pastcollabs/amazon_alexa.png'
+import AlexaImg from '../../img/pastcollabs/amazon_alexa.png';
 import CodingBImg from '../../img/pastcollabs/coding-blocks.png';
-import GithubImg from '../../img/pastcollabs/github.png'
+import GithubImg from '../../img/pastcollabs/github.png';
 import IBMImg from '../../img/pastcollabs/ibm.png';
 import SketchImg from '../../img/pastcollabs/sketch.png';
+import { Fade } from 'react-reveal';
 import './style.css';
 const pcollabsData = [
     {
         name: 'Devfolio',
-        image: DevfolioImg ,
+        image: DevfolioImg,
         link: 'https://devfolio.co/',
     },
     {
         name: 'Matic',
         image: MaticImg,
-        link: 'https://matic.network/'
+        link: 'https://matic.network/',
     },
     {
         name: 'Python Software Foundation',
@@ -52,12 +53,12 @@ const pcollabsData = [
     {
         name: 'Cosmos',
         image: CosmosImg,
-        link: ''
+        link: '',
     },
     {
         name: 'Persistence',
         image: PersistenceImg,
-        link: 'https://persistence.one'
+        link: 'https://persistence.one',
     },
     {
         name: 'Fold',
@@ -67,12 +68,12 @@ const pcollabsData = [
     {
         name: 'Balsamiq',
         image: BalsamiqImg,
-        link: 'https://balsamiq.com/'
+        link: 'https://balsamiq.com/',
     },
     {
         name: 'Coworkable',
         image: CoworkableImg,
-        link: 'https://www.coworkable.com/'
+        link: 'https://www.coworkable.com/',
     },
     {
         name: 'Creative Tim',
@@ -107,64 +108,71 @@ const pcollabsData = [
     {
         name: 'Wolfram',
         image: WolframImg,
-        link: 'https://www.wolfram.com/'
+        link: 'https://www.wolfram.com/',
     },
     {
         name: 'Cloudsploit',
         image: CloudsploitImg,
-        link: 'https://cloudsploit.com/'
+        link: 'https://cloudsploit.com/',
     },
     {
         name: 'Roesenfeld',
         image: RoesenfeldImg,
-        link: 'https://rosenfeldmedia.com/'
+        link: 'https://rosenfeldmedia.com/',
     },
     {
         name: 'Indian Wind Turbine Manufacturers Association',
         image: IWTMAImg,
         link: 'https://www.indianwindpower.com/',
-
     },
     {
         name: 'Amazon Alexa',
         image: AlexaImg,
         link: 'https://developer.amazon.com/en-IN/alexa',
-
     },
     {
         name: 'Coding Blocks',
         image: CodingBImg,
         link: 'https://codingblocks.com/',
-
     },
     {
         name: 'Github',
         image: GithubImg,
         link: 'https://github.com/',
-
     },
     {
         name: 'IBM',
         image: IBMImg,
         link: 'https://www.ibm.com/',
-
     },
     {
         name: 'Sketch',
         image: SketchImg,
         link: 'https://www.sketchapp.com/',
-
-    }
-]
-var pcollabComp = []
-for(const collab of pcollabsData){
-    pcollabComp.push((
-        <Col key={collab.name} className = "d-flex justify-content-center align-items-center p-3" xs={6} md={3}>
-            <a target="_blank" href={collab.link} rel ="noreferrer">
-                <img className="mx-auto" src={collab.image} alt = {collab.name} width="80%" height="80%"/>
-            </a>
+    },
+];
+var pcollabComp = [];
+for (const collab of pcollabsData) {
+    pcollabComp.push(
+        <Col
+            key={collab.name}
+            className="d-flex justify-content-center align-items-center p-3"
+            xs={6}
+            md={3}
+        >
+            <Fade bottom>
+                <a target="_blank" href={collab.link} rel="noreferrer">
+                    <img
+                        className="mx-auto"
+                        src={collab.image}
+                        alt={collab.name}
+                        width="80%"
+                        height="80%"
+                    />
+                </a>
+            </Fade>
         </Col>
-    ));
+    );
 }
 const pastcollab = () => {
     return (
@@ -172,10 +180,13 @@ const pastcollab = () => {
             <Row className="justify-content-center mb-5">
                 <h1 className="title">PAST COLLABORATORS</h1>
             </Row>
-            <Container style={{backgroundColor: 'black'}} id="collabimggrid" fluid className="p-5">
-                <Row>
-                    {pcollabComp}
-                </Row>
+            <Container
+                style={{ backgroundColor: 'black' }}
+                id="collabimggrid"
+                fluid
+                className="p-5"
+            >
+                <Row>{pcollabComp}</Row>
             </Container>
         </Container>
     );
