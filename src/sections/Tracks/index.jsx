@@ -22,14 +22,15 @@ const Tracks = () => {
                 fluid
             >
                 <Row
-                    style={{ width: '60rem' }}
+                    
                     className="d-flex justify-content-center align-items-center"
                 >
-                    <Col className="mb-4">
+                    <Col className="mb-4" >
                         <Flippy
                             flipOnHover={true} // default false
                             flipOnClick={false} // default false
                             flipDirection="horizontal" // horizontal or vertical
+                            
                         >
                             <FrontSide>
                                 <Container
@@ -221,7 +222,7 @@ const Tracks = () => {
                 fluid
             >
                 <Row
-                    style={{ width: '60rem' }}
+                    
                     className="d-flex justify-content-center align-items-center"
                 >
                     <Col className="mb-4">

@@ -17,7 +17,7 @@ const Gallery = () => {
     return (
         <Container fluid id="gallcontainer">
             <Row className="justify-content-center mb-5 text-center pt-5">
-                <h1><b>Gallery</b></h1>
+                <h1><b>GALLERY</b></h1>
             </Row>
             
                 <Row className="justify-content-center">

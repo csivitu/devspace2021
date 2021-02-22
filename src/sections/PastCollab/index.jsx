@@ -170,7 +170,7 @@ const pastcollab = () => {
     return (
         <Container className="py-5" fluid>
             <Row className="justify-content-center mb-5">
-                <h1><b>PAST COLLABORATORS</b></h1>
+                <h1 className="title">PAST COLLABORATORS</h1>
             </Row>
             <Container style={{backgroundColor: 'black'}} id="collabimggrid" fluid className="p-5">
                 <Row>
