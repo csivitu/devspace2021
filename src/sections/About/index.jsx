@@ -27,7 +27,7 @@ export default function About() {
             <Row id="parentRow">
                 <Col md={6} id="left">
                     {data.map((element, index) => (
-                        <Row className="d-flex justify-content-center align-items-center" key={index}>
+                        <Row className="d-flex justify-content-center align-items-end" key={index}>
                             {/* <Col style={{ marginTop: 16 }}> */}
                                 <Snippet
                                     title={element.title}

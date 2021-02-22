@@ -9,7 +9,7 @@ const workshop = () => {
         <div className="w-100 h-100" style={{backgronudColor: '#00D5FF'}}>
             <Container style={{marginTop: '200px'}}>
                 <Row className="justify-content-center">
-                    <h1 style={{color: '#141414'}}><b>Workshop</b></h1>
+                    <h1 style={{color: '#141414'}}><b>WORKSHOPS</b></h1>
                 </Row>
                 <Row className="justify-content-center">
                     <p className="text-muted " style={{fontFamily: 'Lato',fontWeight: '400'}}>to learn and discover new skills</p>
@@ -19,21 +19,21 @@ const workshop = () => {
             <Row className="justify-content-around mt-5">
                     <Col
                         sm={7}
-                        lg={3}
+                        lg={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={3}
+                        lg={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={3}
+                        lg={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
@@ -42,21 +42,21 @@ const workshop = () => {
                 <Row className="justify-content-around mt-5">
                     <Col
                         sm={7}
-                        lg={3}
+                        lg={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={3}
+                        lg={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={3}
+                        lg={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />

@@ -21,26 +21,28 @@ button:focus, a:focus {
     background-color: #141414 !important;
     border: white 2px solid !important;
     padding: 14px 20px !important;
-    border-radius: 8px;
+    border-radius: 0!important;
     transition: 0.3s;
 }
 
 .secondary-button:hover {
     background-color: #00d5ff !important;
     color: black !important;
-    border: #00d5ff 2px solid;
+    border: #00d5ff 2px solid!important;
 }
 
 .primary-button {
     background-color: #00d5ff  !important;
     padding: 14px 20px !important;
     color: black !important;
-    border-radius: 8px;
+    border-radius: 0!important;
+    border: none  !important;
     transition: 0.3s;
 }
 
 .primary-button:hover {
-    background-color: #57e3ff !important;
+    background-color: black !important;
+    color: white  !important;
 }
 
 /*UTILITY CLASSES*/
