@@ -19,21 +19,21 @@ const workshop = () => {
             <Row className="justify-content-around mt-5">
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
@@ -42,21 +42,21 @@ const workshop = () => {
                 <Row className="justify-content-around mt-5">
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />

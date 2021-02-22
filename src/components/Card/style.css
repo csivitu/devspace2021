@@ -7,9 +7,8 @@
     
 }
 .card-img-top{
-    margin-top: -9vh;
-    width: 250px;
-    height: 250px;
+    margin-top: -10vh;
+   
     
 }
 #bodyDivider{
@@ -34,6 +33,35 @@
     width: 10rem;
     height: 10rem;
 }
-.maxw{
-    max-width: 75%!important;
+@media (max-width: 768px){
+    .maxw{
+        margin-top: 5em!important;
+    }
 }
+@media (min-width: 768px) { 
+    .maxw{
+        width: 100%!important;
+    }
+    .card-img-top{
+        margin-top: -7vh;
+        
+    }
+ }
+ @media (min-width: 992px) { 
+    .maxw{
+        width: 100%!important;
+    }
+    .card-img-top{
+        margin-top: -6vh;
+        
+    }
+  }
+  @media (min-width: 1080px) { 
+      .maxw{
+          max-width: 75%!important;
+      }
+      .card-img-top{
+        margin-top: -10vh;
+        
+    }
+   }

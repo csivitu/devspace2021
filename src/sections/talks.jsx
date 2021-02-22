@@ -15,25 +15,25 @@ const talks = () => {
                     <p className="text-muted " style={{fontFamily: 'Lato',fontWeight: '400'}}>from industry-experts</p>
                 </Row>
             </Container>
-            <Container fluid style={{marginTop:'5vh'}}>
+            <Container  style={{marginTop:'5vh'}} fluid>
             <Row className="justify-content-center mt-5">
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
@@ -42,21 +42,21 @@ const talks = () => {
                 <Row className="justify-content-center mt-5">
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
                     </Col>
                     <Col
                         sm={7}
-                        lg={4}
+                        md={4}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card />
