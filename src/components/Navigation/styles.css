@@ -1,8 +1,6 @@
-/* .bg-sigblue {
-    background-color: #00d5ff;
-} */
-* {
+nav {
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
 }
 
 .nav-item {
@@ -13,39 +11,50 @@
     padding: 0;
 }
 
-.bg-black {
-    background-color: black;
+.scroll {
+    background-color: #141414 !important;
 }
-/* #registerbutton {
-    border: white 2px solid;
-    padding: 14px 20px;
-    transition: 0.3s;
-}
-#registerbutton:hover {
-    background-color: #00d5ff;
-    color: black !important;
-    border: #00d5ff 2px solid;
-} */
+
+
 .nav-link {
     color: white !important;
     padding: 0;
 }
 
+<<<<<<< HEAD
 hr {
+=======
+#divider {
+>>>>>>> dev
     width: 2px;
     height: 56px;
     background-color: #FFFAFF;
 }
 
+<<<<<<< HEAD
 /* stying changes for navbar on medium and smaller screens */
+=======
+>>>>>>> dev
 @media only screen and (max-width: 992px) {
     .nav-item {
         margin: 1rem;
     }
 
+<<<<<<< HEAD
     hr {
+=======
+    nav {
+        background-color: #141414 !important;
+    }
+
+    #divider {
+>>>>>>> dev
         height: 2px;
         width: 6.5rem;
         background-color: #FFFAFF;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> dev

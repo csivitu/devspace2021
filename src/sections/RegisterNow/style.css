@@ -1,0 +1,33 @@
+
+
+.li{
+    color: #00D5FF;
+    list-style-type: "✓";
+   
+}  
+li>span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: white;
+    
+}
+.cost{
+    color: #FFFAFF;
+    opacity: 0.4;
+    font-weight: 400;
+    font-size: .777777777778rem;
+    font-style: italic;
+}
+.title{
+    font-family: 'Lato',sans-serif;
+    font-weight: 900;
+}
+.card{
+    border-radius: 0;
+   
+    
+}
+
+.register-now-card {
+    height: 35rem !important;
+}

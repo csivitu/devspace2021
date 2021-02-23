@@ -1,0 +1,16 @@
+.home-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../../img/home-jumbotron-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.devspace-logo {
+    max-width: 75% !important;
+}
+
+@media only screen and (max-width: 470px) {
+    .tags {
+        font-size: 5vw;
+    }
+}
