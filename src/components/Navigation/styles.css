@@ -21,40 +21,24 @@ nav {
     padding: 0;
 }
 
-<<<<<<< HEAD
-hr {
-=======
 #divider {
->>>>>>> dev
     width: 2px;
     height: 56px;
     background-color: #FFFAFF;
 }
 
-<<<<<<< HEAD
-/* stying changes for navbar on medium and smaller screens */
-=======
->>>>>>> dev
 @media only screen and (max-width: 992px) {
     .nav-item {
         margin: 1rem;
     }
 
-<<<<<<< HEAD
-    hr {
-=======
     nav {
         background-color: #141414 !important;
     }
 
     #divider {
->>>>>>> dev
         height: 2px;
         width: 6.5rem;
         background-color: #FFFAFF;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> dev

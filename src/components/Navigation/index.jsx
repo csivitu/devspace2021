@@ -54,11 +54,7 @@ export default function Navigation() {
                             <Nav.Link>Contacts</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-<<<<<<< HEAD
-                            <hr/>
-=======
                             <hr id="divider"/>
->>>>>>> dev
                         </Nav.Item>
                         <Nav.Item>
                             <Button
