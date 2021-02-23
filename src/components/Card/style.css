@@ -32,6 +32,7 @@
 #profile{
     width: 10rem;
     height: 10rem;
+    border: 5px solid #fffaff !important;
 }
 @media (max-width: 768px){
     .maxw{

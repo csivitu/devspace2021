@@ -4,15 +4,15 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './style.css'
-import Img1 from '../../img/gallery/i1.png'
-import Img2 from '../../img/gallery/i2.png'
-import Img3 from '../../img/gallery/i3.png'
-import Img4 from '../../img/gallery/i4.png'
-import Img5 from '../../img/gallery/i5.png'
-import Img6 from '../../img/gallery/i6.png'
-import Img7 from '../../img/gallery/i7.png'
-import Img8 from '../../img/gallery/i8.png'
-import Img9 from '../../img/gallery/i9.png'
+import Img1 from '../../img/gallery/i1.jpg'
+import Img2 from '../../img/gallery/i2.jpg'
+import Img3 from '../../img/gallery/i3.jpg'
+import Img4 from '../../img/gallery/i4.jpg'
+import Img5 from '../../img/gallery/i5.jpg'
+import Img6 from '../../img/gallery/i6.jpg'
+import Img7 from '../../img/gallery/i7.jpg'
+import Img8 from '../../img/gallery/i8.jpg'
+import Img9 from '../../img/gallery/i9.jpg'
 const Gallery = () => {
     return (
         <Container fluid id="gallcontainer">

@@ -25,9 +25,9 @@ export default function About() {
     return (
         <Container fluid className="vw-100" id="about">
             <Row id="parentRow">
-                <Col md={6} id="left" className="d-flex align-items-end flex-column justify-content-between mb-md-3 mb-lg-0">
+                <Col md={6} id="left" className="d-flex flex-column justify-content-between mb-md-3 mb-lg-0">
                     {data.map((element, index) => (
-                        <Row className="d-flex justify-content-center align-self-end" key={index}>
+                        <Row className="d-flex justify-content-center" style={{height:"15rem"}} key={index}>
                             {/* <Col style={{ marginTop: 16 }}> */}
                                 <Snippet
                                     title={element.title}

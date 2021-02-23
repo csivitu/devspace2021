@@ -16,10 +16,6 @@ const faqs1 = [
         qs: 'Is the event online or offline?',
         ans: 'Your health is our priority. Keeping that in mind, Devspace 2021 is going to be an online event.',
     },
-    {
-        qs: 'How long is the hackathon?',
-        ans: 'Devspace 2021 is going to last for 36 hours. It’ll also be filled with talks, workshops and 5 thrilling tracks to brainstorm and work on.',
-    },
 ];
 
 const faqs2 = [
@@ -32,14 +28,14 @@ const faqs2 = [
         ans: 'No. Your problem-solving ability is independent of your technical skills. However, if you’d like to increase your knowledge on existing technologies, they will be available through workshops during the hackathon. ',
     },
     {
-        qs: 'Do we get food?',
-        ans: 'No, but you get brownie points for registering and getting others to register!',
+        qs: 'How long is the hackathon?',
+        ans: 'Devspace 2021 is going to last for 36 hours. It’ll also be filled with talks, workshops and 5 thrilling tracks to brainstorm and work on.',
     },
 ];
 
 const FAQ = () => {
     return (
-        <Container fluid className=" p-5 black-bg text-white">
+        <Container fluid className=" p-5 black-bg text-white" style={{height:"37rem"}}>
             <Row className="justify-content-center">
                 <h1>
                     <b>FAQ</b>
