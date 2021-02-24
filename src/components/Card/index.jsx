@@ -6,7 +6,7 @@ import './style.css';
 
 const index = ({ topic, company, description, image }) => {
     return (
-        <Card className="mt-5 maxw">
+        <Card className="my-5" style={{width:"20rem"}}>
             <Card.Img
                 variant="top"
                 src={image}
