@@ -13,6 +13,7 @@ import Gallery from './sections/Gallery';
 import Footer from './sections/footer';
 import Collabs from './sections/PastCollab';
 import FAQ from './sections/FAQ';
+import Currentcollab from './sections/currentCollab';
 const App = () => (
 	<>
 		<Navigation />
@@ -24,6 +25,7 @@ const App = () => (
 		<Tracks/>
 		<RegisterNow />
 		<FAQ />
+		<Currentcollab />
 		<Collabs/>
 		<Gallery/>
 		<Footer />

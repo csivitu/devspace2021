@@ -12,21 +12,20 @@ const registerNow = () => {
             style={{ backgronudColor: '#00D5FF', paddingBottom: '150px' }}
             id="registrationsection"
         >
-            <Container style={{ marginTop: '150px' }}>
+            <Container style={{ marginTop: '5rem' }}>
                 <Row className="justify-content-center">
                     <h1 className="title">REGISTER NOW</h1>
                 </Row>
                 <Row className="justify-content-around register-now">
                     <Col md={5} sm={6}>
                         <Card
-                            style={{ backgroundColor: 'black' }}
+                            style={{ backgroundColor: 'black'}}
                             className="justify-content-center text-center pt-5 w-100 register-now-card"
                         >
-                            <Card.Body className="pb-5">
+                            <Card.Body className="pb-5" style={{position:"relative"}}>
                                 <h1
                                     style={{
                                         fontWeight: 900,
-                                        marginBottom: '9vh',
                                     }}
                                 >
                                     HACKATHON
@@ -59,10 +58,9 @@ const registerNow = () => {
                                     </li>
                                     {/* <li className="li"><span>Cool Swags</span></li> */}
                                 </ul>
-                                <Button className="secondary-button mt-5">
+                                <Button className="secondary-button mt-5 register-now-button">
                                     Register
                                 </Button>
-                                <p className="mt-2 cost">at free of cost</p>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -71,7 +69,7 @@ const registerNow = () => {
                             style={{ backgroundColor: 'black' }}
                             className="justify-content-center text-center pt-5 w-100 register-now-card"
                         >
-                            <Card.Body className="justify-content-center text-center pb-5">
+                            <Card.Body className="justify-content-center text-center pb-5" style={{position:"relative"}}>
                                 <h1
                                     style={{
                                         fontWeight: 900,
@@ -112,12 +110,9 @@ const registerNow = () => {
                                     </li>
                                 </ul>
 
-                                <Button className="secondary-button mt-5">
+                                <Button className="secondary-button mt-5 register-now-button">
                                     Register
                                 </Button>
-                                <p className="mt-2 cost">
-                                    at free of cost, again
-                                </p>
                             </Card.Body>
                         </Card>
                     </Col>

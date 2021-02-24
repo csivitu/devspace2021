@@ -22,7 +22,7 @@ import Tada from 'react-reveal/Tada';
 
 const Tracks = () => {
     return (
-        <Container className="pt-5 black-bg text-white" fluid>
+        <Container className="pt-5 black-bg text-white" id="tracks" fluid>
             <Row className="justify-content-center">
                 <h1>
                     <b>TRACKS</b>
@@ -333,7 +333,7 @@ const Tracks = () => {
                                         fluid
                                         style={{
                                             height: '17rem',
-                                            width: '16rem',
+                                            width: '17rem',
                                         }}
                                         className="blue-bg d-flex flex-column justify-content-around align-items-center"
                                     >

@@ -1,16 +1,45 @@
-.home-section {
+/* .home-section {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../../img/home-jumbotron-bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .devspace-logo {
-    max-width: 75% !important;
+    max-width: 100% !important;
+}
+
+.bg-overlay {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -3;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 110%;
+    width: 105%;
+    z-index: -11;
+}
+
+.bg-video-content {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 @media only screen and (max-width: 470px) {
     .tags {
         font-size: 5vw;
+    }
+
+    .bg-video {
+        width: 115%;
     }
 }

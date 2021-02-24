@@ -1,33 +1,35 @@
-
-
-.li{
-    color: #00D5FF;
-    list-style-type: "✓";
-   
-}  
-li>span{
+.li {
+    color: #00d5ff;
+    list-style-type: '✓';
+}
+li > span {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     color: white;
-    
 }
-.cost{
-    color: #FFFAFF;
+.cost {
+    color: #fffaff;
     opacity: 0.4;
     font-weight: 400;
-    font-size: .777777777778rem;
+    font-size: 0.777777777778rem;
     font-style: italic;
 }
-.title{
-    font-family: 'Lato',sans-serif;
+.title {
+    font-family: 'Lato', sans-serif;
     font-weight: 900;
 }
-.card{
+.card {
     border-radius: 0;
-   
-    
 }
 
 .register-now-card {
     height: 35rem !important;
+    margin-top: 5rem !important;
+}
+
+.register-now-button {
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
 }

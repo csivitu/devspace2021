@@ -12,10 +12,10 @@ import competitivecoding from '../img/competitivecoding.png';
 const workshop = () => {
     return (
         <div className="w-100 h-100" style={{ backgronudColor: '#00D5FF' }}>
-            <Container style={{ marginTop: '200px' }}>
+            <Container style={{ marginTop: '5rem' }}>
                 <Row className="justify-content-center">
                     <h1 style={{ color: '#141414' }}>
-                        <b>WORKSHOPS</b>
+                        <b>PREVIOUS WORKSHOPS</b>
                     </h1>
                 </Row>
                 <Row className="justify-content-center">

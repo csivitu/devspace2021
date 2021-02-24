@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 
-import './styles.css';
-
 import { Navbar, Nav, Button } from 'react-bootstrap';
 
 import NavbarBrand from '../../img/DevspaceJumbotron.svg';
+
+import './styles.css';
 
 export default function Navigation() {
     const handleScroll = () => {
@@ -45,13 +45,13 @@ export default function Navigation() {
                             <Nav.Link href="#about">About</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link>Tracks</Nav.Link>
+                            <Nav.Link href="#tracks">Tracks</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link>Sponsors</Nav.Link>
+                            <Nav.Link href="#sponsors">Sponsors</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link>Contacts</Nav.Link>
+                            <Nav.Link href="#contacts">Contacts</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
                             <hr id="divider"/>

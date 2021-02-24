@@ -8,7 +8,21 @@
 }
 
 #message {
+    position: relative;
     color: white;
     font-family: 'Poppins',sans-serif;
     font-weight: 400;
+    z-index: 1000;
+}
+
+.snippet-main {
+    position: relative;
+}
+
+.snippet-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 10rem;
+    width: auto;
 }

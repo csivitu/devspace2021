@@ -12,9 +12,9 @@ import vishwa from '../img/vishwa.png';
 const talks = () => {
     return (
         <div className="w-100 h-100" style={{backgronudColor: '#00D5FF',paddingBottom: '150px'}}>
-            <Container style={{marginTop: '200px'}}>
+            <Container style={{marginTop: '5rem'}}>
                 <Row className="justify-content-center">
-                    <h1 style={{color: '#141414'}}><b>TALKS</b></h1>
+                    <h1 style={{color: '#141414'}}><b>PREVIOUS TALKS</b></h1>
                 </Row>
                 <Row className="justify-content-center">
                     <p className="text-muted " style={{fontFamily: 'Lato',fontWeight: '400'}}>from industry-experts</p>

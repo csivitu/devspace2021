@@ -35,7 +35,7 @@ const faqs2 = [
 
 const FAQ = () => {
     return (
-        <Container fluid className=" p-5 black-bg text-white" style={{height:"37rem"}}>
+        <Container fluid className=" p-5 black-bg text-white faq-main-container">
             <Row className="justify-content-center">
                 <h1>
                     <b>FAQ</b>

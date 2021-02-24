@@ -1,11 +1,30 @@
 import React from 'react';
-import { Row, Container, Button, Image } from 'react-bootstrap';
+import {
+    Row,
+    Container,
+    Image,
+    Button
+} from 'react-bootstrap';
 import Devspacejumbo from '../../img/DevspaceJumbotron.svg';
 import './styles.css';
+import herovideo from '../../img/hero/hero.mp4';
 
 function home(props) {
     return (
-        <Container className="home-section vh-100 vw-100 white" fluid>
+        <Container
+            className="home-section vh-100 vw-100 white"
+            fluid
+            style={{ position: 'relative', overflow: "hidden" }}
+        >
+            <div className="bg-overlay">
+
+            </div>
+            <div className="bg-video">
+                <video className="bg-video-content" autoPlay muted>
+                    <source src={herovideo} type="video/mp4" />
+                    Your Browser is not supported!!
+                </video>
+            </div>
             <Container
                 fluid
                 className="d-flex flex-column justify-content-center align-items-center w-100 h-100"
@@ -17,23 +36,22 @@ function home(props) {
                         className="mw-75 devspace-logo"
                         fluid
                     />
-                    {/* <img src={Devspacejumbo} alt ="Devspace" style={{zIndex: 10}}/> */}
                 </Row>
-                <Row className="justify-content-center mt-5">
+                <Row className="justify-content-center mt-3">
                     <h2 className="tags">
-                        Hackathon &nbsp;&nbsp;&nbsp;&nbsp; |
-                        &nbsp;&nbsp;&nbsp;&nbsp; Workshop
-                        &nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp; Talks
+                        Hackathon &nbsp; |
+                        &nbsp; Workshop
+                        &nbsp;&nbsp;| &nbsp;&nbsp; Talks
                     </h2>
                 </Row>
-                <Row className="justify-content-center text-center mt-5">
+                {/* <Row className="justify-content-center text-center mt-5">
                     <h4 className="px-3">
                         Devspace 2021 presents
                         <br />
                         Hacks, talks and workshops. <br /> Learn from the
                         finest, compete with the brightest.
                     </h4>
-                </Row>
+                </Row> */}
                 <Row className="text-center mt-5" style={{ zIndex: 10 }}>
                     <Button id="registerbutton" className="primary-button">
                         REGISTER
