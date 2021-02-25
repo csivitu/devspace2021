@@ -168,8 +168,9 @@ const Tracks = () => {
                                             “Technology will not replace great
                                             teachers but technology in the hands
                                             of great teachers can be
-                                            transformational ” <br />
-                                            -George Couros
+                                            transformational ”
+                                            {/* <br />
+                                            -George Couros */}
                                         </p>
                                     </div>
                                 </Container>
@@ -314,7 +315,7 @@ const Tracks = () => {
                                         <p>
                                             “In a world where data is wealth, we
                                             must safeguard ourselves.”
-                                            <br />- Subham Panda
+                                            {/* <br />- Subham Panda */}
                                         </p>
                                     </div>
                                 </Container>
@@ -333,7 +334,7 @@ const Tracks = () => {
                                         fluid
                                         style={{
                                             height: '17rem',
-                                            width: '17rem',
+                                            width: '16rem',
                                         }}
                                         className="blue-bg d-flex flex-column justify-content-around align-items-center"
                                     >
@@ -384,8 +385,8 @@ const Tracks = () => {
                                             “Everybody has a creative potential
                                             and from the moment you can express
                                             this creative potential, you can
-                                            start changing the world” <br /> -
-                                            Paulo Coelho
+                                            start changing the world”
+                                            <br />- Paulo Coelho
                                         </p>
                                     </div>
                                 </Container>

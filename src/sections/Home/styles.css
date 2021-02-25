@@ -1,12 +1,12 @@
-/* .home-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url("../../img/home-jumbotron-bg.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
-
 .devspace-logo {
     max-width: 100% !important;
+}
+
+.bg-image {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -20;
 }
 
 .bg-overlay {
@@ -30,7 +30,7 @@
 
 .bg-video-content {
     height: 100%;
-    width: 100%;
+    width: 102%;
     object-fit: cover;
 }
 
@@ -40,6 +40,6 @@
     }
 
     .bg-video {
-        width: 115%;
+        width: 120%;
     }
 }

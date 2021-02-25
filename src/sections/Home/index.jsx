@@ -8,6 +8,7 @@ import {
 import Devspacejumbo from '../../img/DevspaceJumbotron.svg';
 import './styles.css';
 import herovideo from '../../img/hero/hero.mp4';
+import heroimg from '../../img/hero/herobw.png';
 
 function home(props) {
     return (
@@ -18,6 +19,9 @@ function home(props) {
         >
             <div className="bg-overlay">
 
+            </div>
+            <div className="bg-image">
+                <img src={heroimg} alt="BGIMAGE"/>
             </div>
             <div className="bg-video">
                 <video className="bg-video-content" autoPlay muted>
