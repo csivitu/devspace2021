@@ -16,6 +16,7 @@ jobs:
         FOLDER_NAME: build
         BRANCH_NAME: main
       run: |
+        unset CI
         npm ci
         npm run build
         echo $CNAME > build/CNAME
