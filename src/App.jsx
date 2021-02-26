@@ -1,21 +1,26 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navigation from './components/Navigation';
-import Home from './sections/Home';
-import About from './sections/About'
-import Workshop from './sections/workshop';
-import Talks from './sections/talks'
-import Hackathon from './sections/Hackathon';
-import Tracks from './sections/Tracks';
-import RegisterNow from './sections/RegisterNow';
-import Gallery from './sections/Gallery';
-import Footer from './sections/footer';
-import Collabs from './sections/PastCollab';
-import FAQ from './sections/FAQ';
-import Currentcollab from './sections/currentCollab';
+import Loading from './components/Loading';
+import Testimonials from './sections/Testimonials';
+
+const Navigation = React.lazy(() => import('./components/Navigation'));
+const Home = React.lazy(() => import('./sections/Home'))
+const About = React.lazy(() => import('./sections/About'))
+const Workshop = React.lazy(() => import('./sections/workshop'))
+const Talks = React.lazy(() => import('./sections/talks'))
+const Hackathon = React.lazy(() => import('./sections/Hackathon'))
+const Tracks = React.lazy(() => import('./sections/Tracks'))
+const RegisterNow = React.lazy(() => import('./sections/RegisterNow'))
+const Gallery = React.lazy(() => import('./sections/Gallery'))
+const Footer = React.lazy(() => import('./sections/footer'))
+const Collabs = React.lazy(() => import('./sections/PastCollab'))
+const FAQ = React.lazy(() => import('./sections/FAQ'))
+const Currentcollab = React.lazy(() => import('./sections/currentCollab'))
+// const Testimonials = React.lazy(()=>import('./sections/Testimonials'))
+
 const App = () => (
-	<>
+	<Suspense fallback={<Loading />}>
 		<Navigation />
 		<Home />
 		<About/>
@@ -24,12 +29,13 @@ const App = () => (
 		<Hackathon />
 		<Tracks/>
 		<RegisterNow />
+		<Testimonials />
 		<FAQ />
 		<Currentcollab />
 		<Collabs/>
 		<Gallery/>
 		<Footer />
-	</>
+	</Suspense>
 )
 
 export default App;
