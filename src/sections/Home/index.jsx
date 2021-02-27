@@ -8,7 +8,7 @@ import {
 import Devspacejumbo from '../../img/DevspaceJumbotron.svg';
 import './styles.css';
 import herovideo from '../../img/hero/hero.mp4';
-import heroimg from '../../img/hero/herobw.jpg';
+// import heroimg from '../../img/hero/herobw.jpg';
 
 function home(props) {
     return (

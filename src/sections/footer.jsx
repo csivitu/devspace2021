@@ -50,7 +50,7 @@ const Footer = () => {
                         </p>
                         <p className="mt-5">
                             <i>
-                                <a href="https://csivit.com" className="white" target="_blank">
+                                <a href="https://csivit.com" className="white" target="_blank" rel="noreferrer">
                                     <u>Visit Website</u>
                                 </a>
                             </i>
