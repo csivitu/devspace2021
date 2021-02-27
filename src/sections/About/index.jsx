@@ -33,7 +33,7 @@ const data = [
 ];
 export default function About() {
     return (
-        <Container fluid className="vw-100" id="about">
+        <Container fluid className="vw-100 blue-bg" id="about">
             <Row id="parentRow">
                 <Col
                     md={6}
@@ -43,7 +43,7 @@ export default function About() {
                     {data.map((element, index) => (
                         <Row
                             className="d-flex justify-content-center"
-                            style={{ height: '15rem' }}
+                            style={{ height: '16.5rem' }}
                             key={index}
                         >
                             {/* <Col style={{ marginTop: 16 }}> */}

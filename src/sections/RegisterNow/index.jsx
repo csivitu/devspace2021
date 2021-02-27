@@ -9,10 +9,11 @@ import './style.css';
 const registerNow = () => {
     return (
         <div
-            style={{ backgronudColor: '#00D5FF', paddingBottom: '150px' }}
+            style={{ paddingBottom: '150px' }}
             id="registrationsection"
+            className="blue-bg"
         >
-            <Container style={{ marginTop: '5rem' }}>
+            <Container style={{ paddingTop: '5rem' }}>
                 <Row className="justify-content-center">
                     <h1 className="title">REGISTER NOW</h1>
                 </Row>

@@ -5,7 +5,7 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const tinymessage = (props) => (
     // <Fade left>
-        <Container id="main" className="px-5 py-4 mb-0 mt-4 mx-4 snippet-main">
+        <Container id="main" className="px-5 pt-4 mt-4 mx-4 snippet-main">
             <Row className="justify-content-left">
                 <Col sm={8}>
                     {' '}

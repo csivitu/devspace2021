@@ -45,7 +45,7 @@ const FAQ = () => {
                 <h5 id="sub">Frequently Asked Questions</h5>
             </Row>
             <Row>
-                <Col className="d-flex justify-content-center align-items-center first-faq-column">
+                <Col className="d-flex justify-content-center align-items-start first-faq-column">
                     <Accordion>
                         {faqs1.map((faq, index) => (
                             <Example eKey={index+1} qs={faq.qs} ans={faq.ans} />
@@ -57,7 +57,7 @@ const FAQ = () => {
                     width: "2px",
                     backgroundColor: "#FFFAFF"
                 }}/> */}
-                <Col className="d-flex justify-content-center align-items-center">
+                <Col className="d-flex justify-content-center align-items-start">
                     <Accordion>
                         {faqs2.map((faq, index) => (
                             <Example eKey={index+1} qs={faq.qs} ans={faq.ans} />

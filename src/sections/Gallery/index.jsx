@@ -16,7 +16,7 @@ import Img8 from '../../img/gallery/i8.jpg';
 import Img9 from '../../img/gallery/i9.jpg';
 const Gallery = () => {
     return (
-        <Container fluid id="gallcontainer">
+        <Container fluid id="gallcontainer" style={{paddingTop: "4rem"}}>
             <Row className="justify-content-center mb-5 text-center pt-5">
                 <h1>
                     <b>GALLERY</b>

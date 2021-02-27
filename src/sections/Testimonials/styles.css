@@ -59,8 +59,10 @@
 
 .open-quote,
 .close-quote {
-    font-weight: bolder;
+    font-weight: 900;
+    font-style: italic;
     position: absolute;
+    font: 'Poppins';
 }
 
 .open-quote {

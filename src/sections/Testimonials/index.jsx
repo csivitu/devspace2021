@@ -33,7 +33,7 @@ const Testimonials = () => {
                 <h5 id="sub"></h5>
             </Row>
             <Row>
-                <div class="owl-carousel">
+                <div className="owl-carousel">
                     {
                         data.map((element, index) => <TestimonialCard key={index} index={index} {...element} />)
                     }

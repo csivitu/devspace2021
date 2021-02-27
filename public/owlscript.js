@@ -5,6 +5,7 @@ $(document).ready(function () {
         loop: true,
         nav: true,
         navText: ['<', '>'],
+        dots: false,
         responsiveClass: true,
         responsive: {
             0: {

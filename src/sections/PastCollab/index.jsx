@@ -176,7 +176,7 @@ for (const collab of pcollabsData) {
 }
 const pastcollab = () => {
     return (
-        <Container className="py-5" fluid>
+        <Container className=" pb-5 blue-bg" fluid style={{paddingTop: "5rem"}}>
             <Row className="justify-content-center mb-5">
                 <h1 className="title">PAST COLLABORATORS</h1>
             </Row>

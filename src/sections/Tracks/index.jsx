@@ -22,7 +22,7 @@ import Tada from 'react-reveal/Tada';
 
 const Tracks = () => {
     return (
-        <Container className="pt-5 black-bg text-white" id="tracks" fluid>
+        <Container className="black-bg text-white" id="tracks" style={{paddingTop: "5rem"}} fluid>
             <Row className="justify-content-center">
                 <h1>
                     <b>TRACKS</b>
@@ -32,10 +32,10 @@ const Tracks = () => {
                 <h5 id="sub">to choose from</h5>
             </Row>
             <Container
-                className="d-flex justify-content-center align-items-center py-4"
+                className="d-flex justify-content-center align-items-center pt-3"
                 fluid
             >
-                <Row className="d-flex justify-content-center align-items-center">
+                <Row className="d-flex justify-content-center align-items-center pt-3">
                     <Col className="mb-4">
                         <Flippy
                             flipOnHover={true} // default false

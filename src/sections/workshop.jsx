@@ -11,8 +11,11 @@ import competitivecoding from '../img/competitivecoding.png';
 
 const workshop = () => {
     return (
-        <div className="w-100 h-100" style={{ backgronudColor: '#00D5FF' }}>
-            <Container style={{ marginTop: '5rem' }}>
+        <div
+            className="w-100 h-100 blue-bg"
+            style={{ backgronudColor: '#00D5FF' }}
+        >
+            <Container style={{ paddingTop: '5rem' }} className="blue-bg">
                 <Row className="justify-content-center">
                     <h1 style={{ color: '#141414' }}>
                         <b>PREVIOUS WORKSHOPS</b>
@@ -27,8 +30,14 @@ const workshop = () => {
                     </p>
                 </Row>
             </Container>
-            <Container fluid style={{ marginTop: '5vh' }}>
-                <Row className="justify-content-around mt-5">
+            <Container
+                className="d-flex justify-content-center align-items-center"
+                fluid
+            >
+                <Row
+                    className="justify-content-center pt-3"
+                    style={{ maxWidth: '70rem' }}
+                >
                     <Col
                         sm={7}
                         md={4}

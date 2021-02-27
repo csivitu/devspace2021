@@ -20,9 +20,9 @@ function home(props) {
             <div className="bg-overlay">
 
             </div>
-            <div className="bg-image">
+            {/* <div className="bg-image">
                 <img src={heroimg} alt="BGIMAGE"/>
-            </div>
+            </div> */}
             <div className="bg-video">
                 <video className="bg-video-content" autoPlay muted>
                     <source src={herovideo} type="video/mp4" />
