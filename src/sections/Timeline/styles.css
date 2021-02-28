@@ -1,0 +1,15 @@
+.timeline-small {
+	display: none;
+}
+
+
+@media only screen and (max-width: 772px) {
+    .timeline-small {
+		display: block;
+		max-width: 100%;
+	}
+
+	.timeline-large {
+		display: none;
+	}
+}

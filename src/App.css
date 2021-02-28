@@ -105,7 +105,7 @@ h6 {
     }
 }
 
-@media (max-width: 813px) {
+@media only screen and (max-width: 813px) {
     html,
     body {
         font-size: 12px;

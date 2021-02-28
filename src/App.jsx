@@ -17,6 +17,7 @@ const Footer = React.lazy(() => import('./sections/footer'))
 const Collabs = React.lazy(() => import('./sections/PastCollab'))
 const FAQ = React.lazy(() => import('./sections/FAQ'))
 const Currentcollab = React.lazy(() => import('./sections/currentCollab'))
+const Timeline = React.lazy(() => import('./sections/Timeline'))
 // const Testimonials = React.lazy(()=>import('./sections/Testimonials'))
 
 const App = () => (
@@ -27,7 +28,8 @@ const App = () => (
 		<Workshop/>
 		<Talks/>
 		<Hackathon />
-		<Tracks/>
+		<Tracks />
+		<Timeline />
 		<RegisterNow />
 		<Testimonials />
 		<FAQ />
