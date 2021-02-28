@@ -68,6 +68,10 @@ a:focus {
     background-color: #00d5ff !important;
 }
 
+a:hover {
+    color: #00d5ff !important
+}
+
 h1,
 h2,
 h3,

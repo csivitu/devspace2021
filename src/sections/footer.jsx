@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import brouchure from '../brouchure/Devspace-2021-Sponsorship-Brochure.pdf';
+import brouchure from '../brouchure/Devspace-2021-Participant-Brochure.pdf';
 
 import { IconContext } from 'react-icons';
 import {
@@ -141,7 +141,7 @@ const Footer = () => {
                         </p>
                         <p className="mt-4">
                             <i>
-                                <a href={brouchure} className="white" download>
+                                <a href="/codeofconduct" className="white">
                                     <u>Code of Conduct</u>
                                 </a>
                             </i>
