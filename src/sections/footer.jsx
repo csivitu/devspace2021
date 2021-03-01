@@ -57,7 +57,7 @@ const Footer = () => {
                         </p>
                     </div>
                 </Col>
-                <Col md={5} className="d-flex justify-content-center align-items-start">
+                <Col md={5} className="d-flex align-items-start footer-right">
                     <div>
                         <h3 style={{ color: '#00D5FF' }}>
                             <b>CONTACT US</b>

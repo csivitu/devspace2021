@@ -170,7 +170,7 @@ const registerNow = () => {
                     <Button
                         className="primary-button mt-5 disabled-button"
                     >
-                        GET YOU BADGE
+                        GET YOUR BADGE
                     </Button>
                 </Row>
             </Container>

@@ -5,7 +5,8 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 const tinymessage = (props) => (
     // <Fade left>
-        <Container id="main" className="px-5 pt-4 mt-4 mx-4 snippet-main">
+    <Container id="main" className="px-5 mt-4 mx-4 snippet-main d-flex justify-content-start align-items-center">
+        <div>
             <Row className="justify-content-left">
                 <Col sm={8}>
                     {' '}
@@ -19,8 +20,9 @@ const tinymessage = (props) => (
                     <p id="message">{props.message}</p>
                 </Col>
             </Row>
-            <Image src={props.image} className="snippet-image" />
-        </Container>
+        </div>
+        <Image src={props.image} className="snippet-image" />
+    </Container>
     // </Fade>
 );
 

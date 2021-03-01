@@ -89,7 +89,7 @@ const currentcollab = () => {
     return (
         <Container className="blue-bg" id="sponsors" fluid style={{paddingTop: "5rem"}}>
             <Row className="justify-content-center mb-5">
-                <h1 className="title">CURRENT COLLABORATORS</h1>
+                <h1 className="title" style={{textAlign:"center"}}>CURRENT COLLABORATORS</h1>
             </Row>
             <Container
                 style={{ backgroundColor: 'black' }}
