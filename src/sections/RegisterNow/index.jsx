@@ -20,26 +20,39 @@ const registerNow = () => {
                 <Row className="justify-content-around register-now">
                     <Col md={5} sm={6}>
                         <Card
-                            style={{ backgroundColor: 'black'}}
-                            className="justify-content-center text-center pt-5 w-100 register-now-card"
+                            style={{ backgroundColor: 'black' }}
+                            className="justify-content-center text-center w-100 register-now-card"
                         >
-                            <Card.Body className="pb-5" style={{position:"relative"}}>
-                                <h1
+                            <Card.Body
+                                className="pb-5"
+                                style={{ position: 'relative' }}
+                            >
+                                <div
                                     style={{
-                                        fontWeight: 900,
+                                        height: '40%',
+                                        position: 'relative',
                                     }}
+                                    className="d-flex flex-column justify-content-center align-items-center"
                                 >
-                                    HACKATHON
-                                </h1>
-                                <hr
-                                    style={{
-                                        height: '1px',
-                                        width: '80%',
-                                        borderWidth: 0,
-                                        color: '#FFFAFF',
-                                        backgroundColor: '#FFFAFF',
-                                    }}
-                                />
+                                    <h1
+                                        style={{
+                                            fontWeight: 900,
+                                        }}
+                                    >
+                                        HACKATHON
+                                    </h1>
+                                    <hr
+                                        style={{
+                                            height: '1px',
+                                            width: '90%',
+                                            borderWidth: 0,
+                                            color: '#FFFAFF',
+                                            backgroundColor: '#FFFAFF',
+                                            position: 'absolute',
+                                            bottom: '0',
+                                        }}
+                                    />
+                                </div>
                                 <ul className="text-left">
                                     <li className="li">
                                         <span>Win cool schwags</span>
@@ -59,7 +72,18 @@ const registerNow = () => {
                                     </li>
                                     {/* <li className="li"><span>Cool Swags</span></li> */}
                                 </ul>
-                                <Button className="secondary-button mt-5 register-now-button">
+                                {/* <Button className="primary-button mt-5 register-now-button">
+                                    Register
+                                </Button> */}
+                                <Button
+                                    className="primary-button mt-5 disabled-button"
+                                    style={{
+                                        position: 'absolute',
+                                        bottom: '5rem',
+                                        left: '50%',
+                                        transform: 'translateX(-50%)',
+                                    }}
+                                >
                                     Register
                                 </Button>
                             </Card.Body>
@@ -68,26 +92,39 @@ const registerNow = () => {
                     <Col md={5} sm={6}>
                         <Card
                             style={{ backgroundColor: 'black' }}
-                            className="justify-content-center text-center pt-5 w-100 register-now-card"
+                            className="justify-content-center text-center pt-2 w-100 register-now-card"
                         >
-                            <Card.Body className="justify-content-center text-center pb-5" style={{position:"relative"}}>
-                                <h1
+                            <Card.Body
+                                className="justify-content-center text-center pb-5"
+                                style={{ position: 'relative' }}
+                            >
+                                <div
                                     style={{
-                                        fontWeight: 900,
-                                        marginBottom: '4vh',
+                                        height: '40%',
+                                        position: 'relative',
                                     }}
+                                    className="d-flex flex-column justify-content-center align-items-center"
                                 >
-                                    TALKS AND WORKSHOP
-                                </h1>
-                                <hr
-                                    style={{
-                                        height: '1px',
-                                        width: '80%',
-                                        borderWidth: 0,
-                                        color: '#FFFAFF',
-                                        backgroundColor: '#FFFAFF',
-                                    }}
-                                />
+                                    <h1
+                                        style={{
+                                            fontWeight: 900,
+                                        }}
+                                    >
+                                        TALKS AND WORKSHOP
+                                    </h1>
+                                    <hr
+                                        style={{
+                                            height: '1px',
+                                            width: '90%',
+                                            borderWidth: 0,
+                                            color: '#FFFAFF',
+                                            backgroundColor: '#FFFAFF',
+                                            position: 'absolute',
+                                            bottom: '0',
+                                        }}
+                                    />
+                                </div>
+
                                 <ul className="text-left">
                                     <li className="li">
                                         <span>Gain industry exposure</span>
@@ -111,12 +148,30 @@ const registerNow = () => {
                                     </li>
                                 </ul>
 
-                                <Button className="secondary-button mt-5 register-now-button">
+                                {/* <Button className="primary-button mt-5 register-now-button">
+                                    Register
+                                </Button> */}
+                                <Button
+                                    className="primary-button mt-5 disabled-button"
+                                    style={{
+                                        position: 'absolute',
+                                        bottom: '5rem',
+                                        left: '50%',
+                                        transform: 'translateX(-50%)',
+                                    }}
+                                >
                                     Register
                                 </Button>
                             </Card.Body>
                         </Card>
                     </Col>
+                </Row>
+                <Row className="mt-4 d-flex justify-content-center align-items-center">
+                    <Button
+                        className="primary-button mt-5 disabled-button"
+                    >
+                        GET YOU BADGE
+                    </Button>
                 </Row>
             </Container>
         </div>

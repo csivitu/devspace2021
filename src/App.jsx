@@ -34,7 +34,7 @@ const App = () => (
                     <Talks />
                     <Hackathon />
                     <Tracks />
-                    <Timeline />
+                    {/* <Timeline /> */}
                     <RegisterNow />
                     <Testimonials />
                     <FAQ />

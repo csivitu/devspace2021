@@ -19,6 +19,11 @@ const data = [
         name: "Amartya Anshuman",
         designation: "",
     },
+    {
+        testimonial: "Hackathons are a platform for engineers to amalgamate their ideas and their knowledge to solve problems that exist beyond the pages of a textbook. It's a place where partners are made and ideas are born. Devspace effortlessly provides a conducive and nurturing atmosphere to light these sparks. A must-have experience for any innovator.",
+        name: "Sameeran Bandishti",
+        designation: "",
+    },
 ]
 
 const Testimonials = () => {

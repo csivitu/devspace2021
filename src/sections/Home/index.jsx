@@ -57,7 +57,7 @@ function home(props) {
                     </h4>
                 </Row> */}
                 <Row className="text-center mt-5" style={{ zIndex: 10 }}>
-                    <Button id="registerbutton" className="primary-button">
+                    <Button id="registerbutton" className="primary-button disabled-button">
                         REGISTER
                     </Button>
                 </Row>

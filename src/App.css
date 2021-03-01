@@ -1,5 +1,6 @@
 html {
     font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -8,6 +9,7 @@ body {
     font-family: 'Poppins', sans-serif !important;
     font-weight: 400;
     overflow-x: hidden;
+    scroll-behavior: smooth;
     /* background-color: #00d5ff !important; */
 }
 
@@ -44,6 +46,12 @@ a:focus {
 .primary-button:hover {
     background-color: black !important;
     color: white !important;
+}
+
+.disabled-button, .disabled-button:hover {
+    background-color: gray !important;
+    color: black !important;
+    cursor: not-allowed !important;
 }
 
 /*UTILITY CLASSES*/

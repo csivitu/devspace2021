@@ -32,4 +32,37 @@ li > span {
     bottom: 5rem;
     left: 50%;
     transform: translateX(-50%);
+    transition: all 0.2s ease-in-out;
+}
+
+.register-now-button::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+    background-color: #00d5ff !important;
+}
+
+.register-now-button:hover {
+    background-color: #00d5ff !important;
+    color: black !important;
+    transform: translate(-50%, -5px);
+    box-shadow: 0 0.5rem 1rem rgba(255,255,255,0.5);
+}
+
+.register-now-button:active {
+    background-color: #00d5ff !important;
+    color: black !important;
+    transform: translateX(-50%);
+    box-shadow: none;
+}
+
+.register-now-button:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
 }

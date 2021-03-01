@@ -59,7 +59,7 @@ export default function Navigation() {
                         <Nav.Item>
                             <Button
                                 id="registerbutton"
-                                className="secondary-button"
+                                className="secondary-button disabled-button"
                             >
                                 REGISTER
                             </Button>
