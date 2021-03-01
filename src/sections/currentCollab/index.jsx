@@ -8,10 +8,29 @@ import JetbrainsImg from '../../img/pastcollabs/jetbrains.png';
 import WolframImg from '../../img/pastcollabs/wolfram_lang.png';
 import EchoARImg from '../../img/pastcollabs/echoAr.webp';
 import FampayImg from '../../img/pastcollabs/fampay.png';
+import IWTMAImg from '../../img/pastcollabs/IWTMA.jpg';
+import EFImg from '../../img/pastcollabs/ethereum.png';
+import GocImg from '../../img/pastcollabs/gocomet.png';
+import OSImg from '../../img/pastcollabs/outscal.png'
 
 import { Fade } from 'react-reveal';
 import './styles.css';
 const ccollabsData = [
+    {
+        name: "Ethereum Foundation",
+        image: EFImg,
+        link: 'https://ethereum.org/en/foundation/',
+    },
+    {
+        name: "Gocomet",
+        image: GocImg,
+        link: 'https://www.gocomet.com',
+    },
+    {
+        name: "Outscal",
+        image: OSImg,
+        link: 'https://www.outscal.com',
+    },
     {
         name: 'Balsamiq',
         image: BalsamiqImg,
@@ -36,6 +55,11 @@ const ccollabsData = [
         name: 'Fampay',
         image: FampayImg,
         link: 'https://www.fampay.in/',
+    },
+    {
+        name: 'Indian Wind Turbine Manufacturers Association',
+        image: IWTMAImg,
+        link: 'https://www.indianwindpower.com/',
     },
 ];
 var ccollabComp = [];

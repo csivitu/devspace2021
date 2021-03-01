@@ -24,6 +24,11 @@ const data = [
         name: "Sameeran Bandishti",
         designation: "",
     },
+    {
+        testimonial: "It was a great learning experience at Devspace. Constructive reviews given by the judges helped us improve the project. It was fun seeing several creative projects from other groups at the event",
+        name: "Shreyansh Jain",
+        designation: "",
+    },
 ]
 
 const Testimonials = () => {

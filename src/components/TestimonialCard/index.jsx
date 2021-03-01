@@ -7,8 +7,10 @@ const generateTestimonial = (index, testimonial) => {
         return <h5 className="black font-italic p-3">{testimonial}</h5>;
     } else if (index === 2) {
         return <h5 className="black font-italic p-3">{testimonial}</h5>;
-    } else {
+    } else if (index === 3) {
         return <h5 className="black font-italic p-3" style={{fontSize: "0.9rem"}}>{testimonial}</h5>;
+    } else {
+        return <h5 className="black font-italic p-3" style={{fontSize: "1rem"}}>{testimonial}</h5>;
     }
 }
 
