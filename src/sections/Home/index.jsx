@@ -44,7 +44,7 @@ function home(props) {
                 <Row className="justify-content-center mt-3">
                     <h2 className="tags">
                         Hackathon &nbsp; |
-                        &nbsp; Workshop
+                        &nbsp; Workshops
                         &nbsp;&nbsp;| &nbsp;&nbsp; Talks
                     </h2>
                 </Row>
