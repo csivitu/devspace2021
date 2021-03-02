@@ -166,14 +166,14 @@ const registerNow = () => {
                         </Card>
                     </Col>
                 </Row>
-                {/* <Row className="mt-4 d-flex justify-content-center align-items-center" style={{position:"relative"}}>
+                <Row className="mt-4 d-flex justify-content-center align-items-center" style={{position:"relative"}}>
                     <Button
                         className="secondary-button get-your-badge-button mt-5"
                         href="https://badgedevspace.csivit.com/"
                     >
                         GET YOUR BADGE
                     </Button>
-                </Row> */}
+                </Row>
             </Container>
         </div>
     );

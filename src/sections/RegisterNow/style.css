@@ -84,3 +84,22 @@ li > span {
     background-color: black !important;
 }
 
+.get-your-badge-button:hover {
+    background-color: black !important;
+    color: white !important;
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.5);
+}
+
+.get-your-badge-button:active {
+    background-color: black !important;
+    color: white !important;
+    box-shadow: none;
+}
+
+.get-your-badge-button:hover::after{
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+
