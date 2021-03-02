@@ -18,7 +18,7 @@ const Footer = React.lazy(() => import('./sections/footer'));
 const Collabs = React.lazy(() => import('./sections/PastCollab'));
 const FAQ = React.lazy(() => import('./sections/FAQ'));
 const Currentcollab = React.lazy(() => import('./sections/currentCollab'));
-const Timeline = React.lazy(() => import('./sections/Timeline'));
+// const Timeline = React.lazy(() => import('./sections/Timeline'));
 const CodeOfConduct = React.lazy(() => import('./sections/CodeOfConduct'));
 // const Testimonials = React.lazy(()=>import('./sections/Testimonials'))
 

@@ -20,6 +20,10 @@ nav {
     border-bottom: 2px solid #FFFAFF !important;
 }
 
+.nav-button:hover {
+    border-bottom: none !important;
+}
+
 .nav-item > a {
     padding: 0;
 }

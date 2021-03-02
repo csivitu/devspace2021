@@ -25,7 +25,7 @@ export default function Navigation() {
     return (
         <div>
             <Navbar
-                scrolling = "true"
+                scrolling="true"
                 // bg="black"
                 // variant="dark"
                 expand="lg"
@@ -54,15 +54,19 @@ export default function Navigation() {
                             <Nav.Link href="#contacts">Contacts</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <hr id="divider"/>
+                            <hr id="divider" />
                         </Nav.Item>
-                        <Nav.Item>
-                            <Button
-                                id="registerbutton"
-                                className="secondary-button disabled-button"
-                            >
-                                REGISTER
-                            </Button>
+                        <Nav.Item className="nav-button">
+                            <Nav.Link href="https://devspace.hackerearth.com/" target="_blank">
+                                <Button
+                                    id="registerbutton"
+                                    className="secondary-button"
+                                    herf="https://devspace.hackerearth.com/"
+                                    target="_blank"
+                                >
+                                    REGISTER
+                                </Button>
+                            </Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>

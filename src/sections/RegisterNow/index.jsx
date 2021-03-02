@@ -72,10 +72,10 @@ const registerNow = () => {
                                     </li>
                                     {/* <li className="li"><span>Cool Swags</span></li> */}
                                 </ul>
-                                {/* <Button className="primary-button mt-5 register-now-button">
+                                <Button className="primary-button mt-5 register-now-button" href="https://devspace.hackerearth.com/" target="_blank">
                                     Register
-                                </Button> */}
-                                <Button
+                                </Button>
+                                {/* <Button
                                     className="primary-button mt-5 disabled-button"
                                     style={{
                                         position: 'absolute',
@@ -85,7 +85,7 @@ const registerNow = () => {
                                     }}
                                 >
                                     Register
-                                </Button>
+                                </Button> */}
                             </Card.Body>
                         </Card>
                     </Col>
@@ -148,10 +148,10 @@ const registerNow = () => {
                                     </li>
                                 </ul>
 
-                                {/* <Button className="primary-button mt-5 register-now-button">
+                                <Button className="primary-button mt-5 register-now-button" href="https://devspace.hackerearth.com/" target="_blank">
                                     Register
-                                </Button> */}
-                                <Button
+                                </Button>
+                                {/* <Button
                                     className="primary-button mt-5 disabled-button"
                                     style={{
                                         position: 'absolute',
@@ -161,18 +161,19 @@ const registerNow = () => {
                                     }}
                                 >
                                     Register
-                                </Button>
+                                </Button> */}
                             </Card.Body>
                         </Card>
                     </Col>
                 </Row>
-                <Row className="mt-4 d-flex justify-content-center align-items-center">
+                {/* <Row className="mt-4 d-flex justify-content-center align-items-center">
                     <Button
-                        className="primary-button mt-5 disabled-button"
+                        className="secondary-button get-your-badge mt-5"
+                        href="https://badgedevspace.csivit.com/"
                     >
                         GET YOUR BADGE
                     </Button>
-                </Row>
+                </Row> */}
             </Container>
         </div>
     );

@@ -2,7 +2,6 @@ import React from 'react';
 import './style.css';
 import Container from 'react-bootstrap/Container';
 import { Row, Col, Image } from 'react-bootstrap';
-import Flippy, { FrontSide, BackSide } from 'react-flippy';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import healthcareFront from '../../img/healthcare-1.png';
