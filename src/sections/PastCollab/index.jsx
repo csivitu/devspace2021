@@ -66,11 +66,6 @@ const pcollabsData = [
         link: 'https://fold.money',
     },
     {
-        name: 'Balsamiq',
-        image: BalsamiqImg,
-        link: 'https://balsamiq.com/',
-    },
-    {
         name: 'Coworkable',
         image: CoworkableImg,
         link: 'https://www.coworkable.com/',
@@ -79,11 +74,6 @@ const pcollabsData = [
         name: 'Creative Tim',
         image: CTimImg,
         link: 'https://www.creative-tim.com/',
-    },
-    {
-        name: 'Jetbrains',
-        image: JetbrainsImg,
-        link: 'https://www.jetbrains.com/',
     },
     {
         name: '.tech',
@@ -106,11 +96,6 @@ const pcollabsData = [
         link: 'https://www.bugsee.com/',
     },
     {
-        name: 'Wolfram',
-        image: WolframImg,
-        link: 'https://www.wolfram.com/',
-    },
-    {
         name: 'Cloudsploit',
         image: CloudsploitImg,
         link: 'https://cloudsploit.com/',
@@ -119,11 +104,6 @@ const pcollabsData = [
         name: 'Roesenfeld',
         image: RoesenfeldImg,
         link: 'https://rosenfeldmedia.com/',
-    },
-    {
-        name: 'Indian Wind Turbine Manufacturers Association',
-        image: IWTMAImg,
-        link: 'https://www.indianwindpower.com/',
     },
     {
         name: 'Amazon Alexa',
@@ -136,19 +116,9 @@ const pcollabsData = [
         link: 'https://codingblocks.com/',
     },
     {
-        name: 'Github',
-        image: GithubImg,
-        link: 'https://github.com/',
-    },
-    {
         name: 'IBM',
         image: IBMImg,
         link: 'https://www.ibm.com/',
-    },
-    {
-        name: 'Sketch',
-        image: SketchImg,
-        link: 'https://www.sketchapp.com/',
     },
 ];
 var pcollabComp = [];

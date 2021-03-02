@@ -62,7 +62,7 @@ const Tracks = () => {
                                             className="my-4"
                                         />
                                         <h4 className="white text-center">
-                                            INDUSTRIAL COLLABORATION
+                                            INDUSTRIAL COLLABORATIONS
                                         </h4>
                                     </Container>
                                 </Pulse>
@@ -89,7 +89,7 @@ const Tracks = () => {
                                                 className="black text-center trackh5"
                                                 style={{ margin: 0 }}
                                             >
-                                                INDUSTRIAL COLLABORATION
+                                                INDUSTRIAL COLLABORATIONS
                                             </h5>
                                             <hr
                                                 style={{

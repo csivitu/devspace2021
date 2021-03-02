@@ -5,31 +5,36 @@ import TestimonialCard from '../../components/TestimonialCard';
 
 const data = [
     {
-        testimonial: "CodeSpace was not only one of the very first hackathons that I won , but also the best one I've ever been to so far. Probably the best thing about codespace were the problem statements. They were genuinely challenging and required some serious brainstorming.",
-        name: "Shreshth Srivastava",
-        designation: "",
+        testimonial:
+            "Devspace was not only one of the very first hackathons that I won , but also the best one I've ever been to so far. Probably the best thing about Devspace were the problem statements. They were genuinely challenging and required some serious brainstorming.",
+        name: 'Shreshth Srivastava',
+        designation: '',
     },
     {
-        testimonial: "A great opportunity for learning. Amazing workshops and events.Met lots of cool people here. You can do the same.",
-        name: "Vinay Lanka",
-        designation: "",
+        testimonial:
+            'A great opportunity for learning. Amazing workshops and events.Met lots of cool people here. You can do the same.',
+        name: 'Vinay Lanka',
+        designation: '',
     },
     {
-        testimonial: "A well organised event, a good opportunity to increase your connections. Informative sessions. One of a kind Hack-a-Thon.",
-        name: "Amartya Anshuman",
-        designation: "",
+        testimonial:
+            'A well organised event, a good opportunity to increase your connections. Informative sessions. One of a kind Hack-a-Thon.',
+        name: 'Amartya Anshuman',
+        designation: '',
     },
     {
-        testimonial: "Hackathons are a platform for engineers to amalgamate their ideas and their knowledge to solve problems that exist beyond the pages of a textbook. It's a place where partners are made and ideas are born. Devspace effortlessly provides a conducive and nurturing atmosphere to light these sparks. A must-have experience for any innovator.",
-        name: "Sameeran Bandishti",
-        designation: "",
+        testimonial:
+            "Hackathons are a platform for engineers to amalgamate their ideas and their knowledge to solve problems that exist beyond the pages of a textbook. It's a place where partners are made and ideas are born. Devspace effortlessly provides a conducive and nurturing atmosphere to light these sparks. A must-have experience for any innovator.",
+        name: 'Sameeran Bandishti',
+        designation: '',
     },
     {
-        testimonial: "It was a great learning experience at Devspace. Constructive reviews given by the judges helped us improve the project. It was fun seeing several creative projects from other groups at the event",
-        name: "Shreyansh Jain",
-        designation: "",
+        testimonial:
+            'It was a great learning experience at Devspace. Constructive reviews given by the judges helped us improve the project. It was fun seeing several creative projects from other groups at the event',
+        name: 'Shreyansh Jain',
+        designation: '',
     },
-]
+];
 
 const Testimonials = () => {
     return (
@@ -44,9 +49,13 @@ const Testimonials = () => {
             </Row>
             <Row>
                 <div className="owl-carousel">
-                    {
-                        data.map((element, index) => <TestimonialCard key={index} index={index} {...element} />)
-                    }
+                    {data.map((element, index) => (
+                        <TestimonialCard
+                            key={index}
+                            index={index}
+                            {...element}
+                        />
+                    ))}
                 </div>
             </Row>
         </Container>

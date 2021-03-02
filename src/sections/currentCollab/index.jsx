@@ -11,7 +11,14 @@ import FampayImg from '../../img/pastcollabs/fampay.png';
 import IWTMAImg from '../../img/pastcollabs/IWTMA.jpg';
 import EFImg from '../../img/pastcollabs/ethereum.png';
 import GocImg from '../../img/pastcollabs/gocomet.png';
-import OSImg from '../../img/pastcollabs/outscal.png'
+import OSImg from '../../img/pastcollabs/outscal.png';
+import GithubImg from '../../img/pastcollabs/github.png';
+import SketchImg from '../../img/pastcollabs/sketch.png';
+import VTImg from '../../img/pastcollabs/vitrendz.png';
+import CodechefImg from '../../img/pastcollabs/codechef.png';
+import DyteImg from '../../img/pastcollabs/dyte.png';
+import WazirxImg from '../../img/pastcollabs/wazirx.png';
+import LinodeImg from '../../img/pastcollabs/linode.png';
 
 import { Fade } from 'react-reveal';
 import './styles.css';
@@ -61,6 +68,42 @@ const ccollabsData = [
         image: IWTMAImg,
         link: 'https://www.indianwindpower.com/',
     },
+    {
+        name: 'Dyte',
+        image: DyteImg,
+        link: 'https://dyte.in/',
+    },
+    {
+        name: 'Linode',
+        image: LinodeImg,
+        link: 'https://www.linode.com/',
+    },   
+    {
+        name: 'WazirX',
+        image: WazirxImg,
+        link: 'https://wazirx.com/',
+    },
+    {
+        name: 'Codechef',
+        image: CodechefImg,
+        link: 'https://www.codechef.com/',
+    }, 
+    {
+        name: 'Github',
+        image: GithubImg,
+        link: 'https://www.github.com/',
+    }, 
+    {
+        name: 'Sketch',
+        image: SketchImg,
+        link: 'https://www.sketch.com/',
+    }, 
+    {
+        name: 'VITrendz',
+        image: VTImg,
+        link: 'https://www.vitrendz.tech/',
+    }, 
+    
 ];
 var ccollabComp = [];
 for (const collab of ccollabsData) {
