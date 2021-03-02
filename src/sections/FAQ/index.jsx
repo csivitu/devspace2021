@@ -18,6 +18,11 @@ const faqs1 = [
         ans:
             'Your health is our priority. Keeping that in mind, Devspace 2021 is going to be an online event.',
     },
+    {
+        qs: 'When will the problem statements be released?',
+        ans:
+            'The problem statements will be released when the hack commences on the 19th.',
+    },
 ];
 
 const faqs2 = [
@@ -37,6 +42,10 @@ const faqs2 = [
         ans:
             'Devspace 2021 is going to last for 36 hours. It’ll also be filled with talks, workshops and 5 thrilling tracks to brainstorm and work on.',
     },
+    {
+        qs: 'Where should we submit our project?',
+        ans: 'All submissions will be accepted on Hackerearth.',
+    },
 ];
 
 const FAQ = () => {
@@ -47,7 +56,7 @@ const FAQ = () => {
         >
             <Row className="justify-content-center">
                 <h1>
-                    <b>FAQ</b>
+                    <b>FAQs</b>
                 </h1>
             </Row>
             <Row className="justify-content-center pb-5">
@@ -68,7 +77,7 @@ const FAQ = () => {
                     <Col className="d-flex flex-column justify-content-start align-items-center">
                         {faqs2.map((faq, index) => (
                             <Example
-                                eKey={index + 4}
+                                eKey={index + 5}
                                 qs={faq.qs}
                                 ans={faq.ans}
                             />

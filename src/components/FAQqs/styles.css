@@ -11,3 +11,8 @@
 .faq-container > button > img {
 	height: 100%;
 }
+
+.p-light {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200;
+}

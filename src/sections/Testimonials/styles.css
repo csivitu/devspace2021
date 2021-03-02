@@ -62,7 +62,7 @@
     font-weight: 900;
     font-style: italic;
     position: absolute;
-    font: 'Poppins';
+    font-family: 'Poppins';
 }
 
 .open-quote {

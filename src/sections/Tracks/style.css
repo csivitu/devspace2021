@@ -40,3 +40,11 @@
     visibility: visible;
     transform: rotateY(0);
 }
+
+.trackp {
+    font-size: 0.9rem;
+}
+
+.trackh5 {
+    font-size: 1.1rem;
+}

@@ -63,7 +63,7 @@ function Example({ qs, ans, eKey }) {
                 </Container>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey={eKey}>
-                <Card.Body as="p">{ans}</Card.Body>
+                <Card.Body as="p" className="p-light">{ans}</Card.Body>
             </Accordion.Collapse>
         </Card>
     );
