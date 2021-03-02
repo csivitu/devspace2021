@@ -41,7 +41,7 @@ const Tracks = () => {
                 fluid
             >
                 <Row className="d-flex justify-content-center align-items-center pt-3">
-                    <Col className="mb-4">
+                    <Col className="mb-4 d-flex justify-content-center align-items-center">
                         <div className="card-main">
                             <div className="card-front">
                                 <Pulse>
@@ -112,7 +112,7 @@ const Tracks = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col className="mb-4">
+                    <Col className="mb-4 d-flex justify-content-center align-items-center">
                         <div className="card-main">
                             <div className="card-front">
                                 <Pulse>
@@ -183,7 +183,7 @@ const Tracks = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col className="mb-4">
+                    <Col className="mb-4 d-flex justify-content-center align-items-center">
                         <div className="card-main">
                             <div className="card-front">
                                 <Pulse>
@@ -255,7 +255,7 @@ const Tracks = () => {
                     </Col>
                 </Row>
                 <Row className="d-flex justify-content-center align-items-center">
-                    <Col className="mb-4">
+                    <Col className="mb-4 d-flex justify-content-center align-items-center">
                         <div className="card-main">
                             <div className="card-front">
                                 <Pulse>
@@ -326,7 +326,7 @@ const Tracks = () => {
                             </div>
                         </div>
                     </Col>
-                    <Col className="mb-4">
+                    <Col className="mb-4 d-flex justify-content-center align-items-center">
                         <div className="card-main">
                             <div className="card-front">
                                 <Pulse>
@@ -399,7 +399,7 @@ const Tracks = () => {
                             </div>
                         </div>
                     </Col>
-                    {/* <Col className="mb-4">
+                    <Col className="mb-4 d-flex justify-content-center align-items-center">
                         <div className="card-main">
                             <div className="card-front">
                                 <Pulse>
@@ -412,14 +412,14 @@ const Tracks = () => {
                                         className="blue-bg d-flex flex-column justify-content-around align-items-center"
                                     >
                                         <Image
-                                            src={healthcareFront}
+                                            src={openInnovationFront}
                                             style={{
                                                 height: '10rem',
                                                 width: '10rem',
                                             }}
                                         />
                                         <h3 className="white text-center">
-                                            HEALTHCARE AND SOCIAL RESPONSIBILITY
+                                            OPEN INNOVATION
                                         </h3>
                                     </Container>
                                 </Pulse>
@@ -436,7 +436,7 @@ const Tracks = () => {
                                     >
                                         <div className="d-flex flex-column justify-content-center align-items-center">
                                             <Image
-                                                src={healthcareBack}
+                                                src={openInnovationBack}
                                                 style={{
                                                     height: '2rem',
                                                     width: '2rem',
@@ -447,8 +447,7 @@ const Tracks = () => {
                                                 className="black text-center"
                                                 style={{ margin: 0 }}
                                             >
-                                                HEALTHCARE AND SOCIAL
-                                                RESPONSIBILITY
+                                                OPEN INNOVATION
                                             </h5>
                                             <hr
                                                 style={{
@@ -460,16 +459,19 @@ const Tracks = () => {
                                         </div>
                                         <div className="black text-center">
                                             <p>
-                                                “With great power comes great
-                                                responsibility”
-                                                <br />- Uncle Ben
+                                                “Everybody has a creative
+                                                potential and from the moment
+                                                you can express this creative
+                                                potential, you can start
+                                                changing the world”
+                                                <br />- Paulo Coelho
                                             </p>
                                         </div>
                                     </Container>
                                 </Pulse>
                             </div>
                         </div>
-                    </Col> */}
+                    </Col>
                 </Row>
             </Container>
         </Container>

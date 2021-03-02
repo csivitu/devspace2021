@@ -33,7 +33,7 @@ function home(props) {
                 fluid
                 className="d-flex flex-column justify-content-center align-items-center w-100 h-100"
             >
-                <Row className="justify-content-center mt-5">
+                <Row className="justify-content-center mt-5 p-3">
                     <Image
                         src={Devspacejumbo}
                         alt="Devspace"
