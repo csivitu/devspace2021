@@ -40,7 +40,7 @@ const faqs2 = [
     {
         qs: 'How long is the hackathon?',
         ans:
-            'Devspace 2021 is going to last for 36 hours. It’ll also be filled with talks, workshops and 5 thrilling tracks to brainstorm and work on.',
+            'Devspace 2021 is going to last for 36 hours. It’ll also be filled with talks, workshops and 6 thrilling tracks to brainstorm and work on.',
     },
     {
         qs: 'Where should we submit our project?',

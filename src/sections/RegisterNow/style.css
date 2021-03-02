@@ -66,3 +66,21 @@ li > span {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
+
+.get-your-badge-button {
+    transition: all 0.2s ease-in-out;
+}
+
+.get-your-badge-button::after{
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.4s;
+    background-color: black !important;
+}
+
