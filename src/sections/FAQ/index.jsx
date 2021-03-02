@@ -27,15 +27,15 @@ const faqs1 = [
 
 const faqs2 = [
     {
-        qs: 'Can I apply without a team?',
-        ans:
-            'No. Devspace 2021 is a team event. Student teams need a minimum of three fellow students as members but a maximum of six.  ',
-    },
-    {
         qs:
             'Do I need to know how to code and/or have a technical skill to participate?',
         ans:
             'No. Your problem-solving ability is independent of your technical skills. However, if you’d like to increase your knowledge on existing technologies, they will be available through workshops during the hackathon. ',
+    },
+    {
+        qs: 'Can I apply without a team?',
+        ans:
+            'No. Devspace 2021 is a team event. Student teams need a minimum of three fellow students as members but a maximum of six.  ',
     },
     {
         qs: 'How long is the hackathon?',

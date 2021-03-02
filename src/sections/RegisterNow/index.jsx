@@ -170,6 +170,7 @@ const registerNow = () => {
                     <Button
                         className="secondary-button get-your-badge-button mt-5"
                         href="https://badgedevspace.csivit.com/"
+                        target="_blank"
                     >
                         GET YOUR BADGE
                     </Button>
