@@ -13,7 +13,7 @@ const index = ({ topic, company, description, image }) => {
                 className="float-center rounded-circle mx-auto img-fluid black-img"
                 id="profile"
             />
-            <Card.Body className="d-flex flex-column justify-content-between align-items-center">
+            <Card.Body className="d-flex flex-column justify-content-around align-items-center">
                 <h4 className="text-center" id="company">
                     {company}
                 </h4>
