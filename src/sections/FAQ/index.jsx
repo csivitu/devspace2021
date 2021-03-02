@@ -71,6 +71,7 @@ const FAQ = () => {
                                 eKey={index + 1}
                                 qs={faq.qs}
                                 ans={faq.ans}
+                                key={index}
                             />
                         ))}
                     </Col>
@@ -80,6 +81,7 @@ const FAQ = () => {
                                 eKey={index + 5}
                                 qs={faq.qs}
                                 ans={faq.ans}
+                                key={index}
                             />
                         ))}
                     </Col>
