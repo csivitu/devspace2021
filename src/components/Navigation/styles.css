@@ -35,6 +35,11 @@ nav {
     padding: 0;
 }
 
+#navbar-collapse {
+    background-color: #141414 !important;
+    width: 100vw !important;
+}
+
 #divider {
     width: 2px;
     height: 56px;

@@ -26,8 +26,8 @@ export default function Navigation() {
         <div>
             <Navbar
                 scrolling = "true"
-                bg="black"
-                variant="dark"
+                // bg="black"
+                // variant="dark"
                 expand="lg"
                 fixed="top"
                 className="d-flex justify-space-between align-items-center devspace-navbar"
