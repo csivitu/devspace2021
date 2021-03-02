@@ -42,6 +42,7 @@ nav {
 #navbar-collapse {
     background-color: #141414 !important;
     width: 100vw !important;
+    height: 4rem !important;
 }
 
 #divider {
