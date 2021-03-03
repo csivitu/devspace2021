@@ -21,6 +21,7 @@ const FAQ = React.lazy(() => import('./sections/FAQ'));
 const Currentcollab = React.lazy(() => import('./sections/currentCollab'));
 // const Timeline = React.lazy(() => import('./sections/Timeline'));
 const CodeOfConduct = React.lazy(() => import('./sections/CodeOfConduct'));
+const Badge = React.lazy(() => import('./sections/Badge'));
 // const Testimonials = React.lazy(()=>import('./sections/Testimonials'))
 
 const App = () => (
@@ -37,6 +38,7 @@ const App = () => (
                     <Tracks />
                     {/* <Timeline /> */}
                     <RegisterNow />
+                    <Badge />
                     <Testimonials />
                     <FAQ />
                     <Currentcollab />

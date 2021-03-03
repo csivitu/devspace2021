@@ -9,7 +9,7 @@ import './style.css';
 const registerNow = () => {
     return (
         <div
-            style={{ paddingBottom: '150px' }}
+            style={{ paddingBottom: '100px' }}
             id="registrationsection"
             className="blue-bg"
         >
@@ -165,15 +165,6 @@ const registerNow = () => {
                             </Card.Body>
                         </Card>
                     </Col>
-                </Row>
-                <Row className="mt-4 d-flex justify-content-center align-items-center" style={{position:"relative"}}>
-                    <Button
-                        className="secondary-button get-your-badge-button mt-5"
-                        href="https://badgedevspace.csivit.com/"
-                        target="_blank"
-                    >
-                        GET YOUR BADGE
-                    </Button>
                 </Row>
             </Container>
         </div>

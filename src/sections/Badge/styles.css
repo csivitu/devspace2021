@@ -1,28 +1,4 @@
-.badge-container {
-    background-color: black;
-    border-radius: 20px;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,-50%);
+.badge-image {
+	width: 30rem;
+	height: auto;
 }
-
-#texti {
-    background-color: black;
-    color: white;
-    border-top-style: hidden;
-    border-right-style: hidden;
-    border-left-style: hidden;
-    border-bottom-style: groove 3px;
-    outline: none;
-}
-
-::placeholder {
-    color: white;
-    opacity: 0.5;
-}
-
-.texti {
-    font-family: 'Poppins', sans-serif;
-}
-

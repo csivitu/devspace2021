@@ -15,9 +15,9 @@ const Hackathon = () => {
             </h1>
             <div className="hackathon-text p-5" style={{position: "relative"}}>
                 <p
-                    className="px-2"
+                    className="px-2 black"
                     style={{
-                        maxWidth: '50rem',
+                        maxWidth: '43rem',
                         fontWeight: 400,
                         fontFamily: 'Poppins',
                         color: '#FFFAFF',
