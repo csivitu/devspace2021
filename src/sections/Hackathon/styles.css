@@ -1,0 +1,11 @@
+.hackathon-text {
+	border: 2px solid #00d5ff;
+}
+
+.hack-image {
+    position: absolute;
+    bottom: -3rem;
+    right: -2rem;
+    height: 15rem;
+    width: auto;
+}

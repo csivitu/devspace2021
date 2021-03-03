@@ -6,6 +6,7 @@ import Loading from './components/Loading';
 import Testimonials from './sections/Testimonials';
 
 const Navigation = React.lazy(() => import('./components/Navigation'));
+const DiscordButton = React.lazy(() => import('./components/DiscordButton'));
 const Home = React.lazy(() => import('./sections/Home'));
 const About = React.lazy(() => import('./sections/About'));
 const Workshop = React.lazy(() => import('./sections/workshop'));
@@ -42,6 +43,7 @@ const App = () => (
                     <Collabs />
                     <Gallery />
                     <Footer />
+                    <DiscordButton />
                 </Route>
                 <Route path="/codeofconduct">
                     <CodeOfConduct />

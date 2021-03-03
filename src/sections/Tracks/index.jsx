@@ -23,7 +23,7 @@ import Pulse from 'react-reveal/Pulse';
 const Tracks = () => {
     return (
         <Container
-            className="black-bg text-white"
+            className="black-bg text-white pb-5"
             id="tracks"
             style={{ paddingTop: '5rem' }}
             fluid
