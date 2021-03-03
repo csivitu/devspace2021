@@ -21,3 +21,17 @@
 	border: 2px solid #fffaff !important;
 	outline: none !important;
 }
+
+@media only screen and (max-width: 768px) {
+    .discord-button {
+		position: fixed;
+		bottom: 1.5rem;
+		right: 1.5rem;
+		height: 60px;
+		width: 60px;
+		border-radius: 500px;
+		background-color: #141414;
+		border: 2px solid #fffaff;
+		transition: all .5s ease;
+	}
+}

@@ -11,7 +11,7 @@ const DiscordButton = () => {
             <IconContext.Provider
                 value={{
                     color: '#00D5FF',
-                    size: '1.8rem',
+                    size: '80%',
                 }}
             >
                 <div>
