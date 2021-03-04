@@ -17,7 +17,7 @@ import SketchImg from '../../img/pastcollabs/sketch.png';
 import VTImg from '../../img/pastcollabs/vitrendz.png';
 import CodechefImg from '../../img/pastcollabs/codechef.png';
 import DyteImg from '../../img/pastcollabs/dyte.png';
-import WazirxImg from '../../img/pastcollabs/wazirx.png';
+// import WazirxImg from '../../img/pastcollabs/wazirx.png';
 import LinodeImg from '../../img/pastcollabs/linode.png';
 
 import { Fade } from 'react-reveal';
