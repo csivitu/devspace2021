@@ -79,11 +79,6 @@ const ccollabsData = [
         link: 'https://www.linode.com/',
     },   
     {
-        name: 'WazirX',
-        image: WazirxImg,
-        link: 'https://wazirx.com/',
-    },
-    {
         name: 'Codechef',
         image: CodechefImg,
         link: 'https://www.codechef.com/',
