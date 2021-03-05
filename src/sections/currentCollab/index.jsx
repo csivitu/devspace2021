@@ -17,8 +17,10 @@ import SketchImg from '../../img/pastcollabs/sketch.png';
 import VTImg from '../../img/pastcollabs/vitrendz.png';
 import CodechefImg from '../../img/pastcollabs/codechef.png';
 import DyteImg from '../../img/pastcollabs/dyte.png';
-// import WazirxImg from '../../img/pastcollabs/wazirx.png';
 import LinodeImg from '../../img/pastcollabs/linode.png';
+import VoiceflowImg from '../../img/pastcollabs/voiceflow.png';
+import CodexImg from '../../img/pastcollabs/codex.png';
+import AWSImg from '../../img/pastcollabs/aws.png';
 
 import { Fade } from 'react-reveal';
 import './styles.css';
@@ -92,6 +94,21 @@ const ccollabsData = [
         name: 'Sketch',
         image: SketchImg,
         link: 'https://www.sketch.com/',
+    },
+    {
+        name: 'Voiceflow',
+        image: VoiceflowImg,
+        link: 'https://www.voiceflow.com/',
+    },
+    {
+        name: 'Codex',
+        image: CodexImg,
+        link: 'https://thecodex.me/',
+    },
+    {
+        name: 'AWS',
+        image: AWSImg,
+        link: 'https://aws.amazon.com/',
     }, 
     {
         name: 'VITrendz',
