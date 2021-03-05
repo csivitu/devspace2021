@@ -3,6 +3,20 @@
     <head>
         <meta charset="utf-8" />
         <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-BC60NHVBWZ"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'G-BC60NHVBWZ');
+        </script>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
             href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&family=Poppins&display=swap"
@@ -49,7 +63,6 @@
     </head>
 
     <body>
-        
         <script type="text/javascript">
             (function (l) {
                 if (l.search) {
