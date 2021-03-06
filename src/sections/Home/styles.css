@@ -17,7 +17,7 @@
 }
 
 .bg-overlay {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(245, 97, 97, 0.7));
     position: absolute;
     top: 0;
     left: 0;
@@ -39,6 +39,10 @@
     height: 100%;
     width: 102%;
     object-fit: cover;
+}
+
+.eth-img {
+    height: 2rem;
 }
 
 @media only screen and (max-width: 470px) {

@@ -8,6 +8,7 @@ import {
 import Devspacejumbo from '../../img/DevspaceJumbotron.svg';
 import './styles.css';
 import herovideo from '../../img/hero/hero.mp4';
+import ethImg from '../../img/hero/eth.png';
 // import heroimg from '../../img/hero/herobw.jpg';
 
 function home(props) {
@@ -41,12 +42,16 @@ function home(props) {
                         fluid
                     />
                 </Row>
-                <Row className="justify-content-center mt-3">
-                    <h2 className="tags">
+                <Row className="justify-content-center mt-2">
+                    {/* <h2 className="tags">
                         Hackathon &nbsp; |
                         &nbsp; Workshops
                         &nbsp;&nbsp;| &nbsp;&nbsp; Talks
-                    </h2>
+                    </h2> */}
+                    <h5 className="tags">
+                        driven by &nbsp;
+                    </h5>
+                    <Image src={ ethImg } className="eth-img pb-1" />
                 </Row>
                 {/* <Row className="justify-content-center text-center mt-5">
                     <h4 className="px-3">
