@@ -150,7 +150,7 @@ const pastcollab = () => {
                 fluid
                 className="p-5"
             >
-                <Row>{pcollabComp}</Row>
+                <Row className="justify-content-center align-items-center">{pcollabComp}</Row>
             </Container>
         </Container>
     );

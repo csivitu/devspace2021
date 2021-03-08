@@ -16,9 +16,13 @@ const Tracks = React.lazy(() => import('./sections/Tracks'));
 const RegisterNow = React.lazy(() => import('./sections/RegisterNow'));
 const Gallery = React.lazy(() => import('./sections/Gallery'));
 const Footer = React.lazy(() => import('./sections/footer'));
-const Collabs = React.lazy(() => import('./sections/PastCollab'));
+// const Collabs = React.lazy(() => import('./sections/PastCollab'));
 const FAQ = React.lazy(() => import('./sections/FAQ'));
-const Currentcollab = React.lazy(() => import('./sections/currentCollab'));
+const Collaborations = React.lazy(() => import('./sections/Collaborations'));
+const TitleSponsors = React.lazy(() => import('./sections/TitleSpons'));
+const IndustrialPartner = React.lazy(() => import('./sections/IndustrialPartner'));
+const Sponsors = React.lazy(() => import('./sections/Sponsors'));
+const CommunityPartners = React.lazy(() => import('./sections/CommunityPartners'));
 // const Timeline = React.lazy(() => import('./sections/Timeline'));
 const CodeOfConduct = React.lazy(() => import('./sections/CodeOfConduct'));
 const Badge = React.lazy(() => import('./sections/Badge'));
@@ -41,8 +45,12 @@ const App = () => (
                     <Badge />
                     <Testimonials />
                     <FAQ />
-                    <Currentcollab />
-                    <Collabs />
+                    <TitleSponsors />
+                    <IndustrialPartner />
+                    <Sponsors />
+                    <Collaborations />
+                    <CommunityPartners />
+                    {/* <Collabs /> */}
                     <Gallery />
                     <Footer />
                     <DiscordButton />

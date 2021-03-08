@@ -5,18 +5,12 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import BalsamiqImg from '../../img/pastcollabs/balsamiq-logo-print.png';
 import JetbrainsImg from '../../img/pastcollabs/jetbrains.png';
-import WolframImg from '../../img/pastcollabs/wolfram_lang.png';
 import EchoARImg from '../../img/pastcollabs/echoAr.webp';
 import FampayImg from '../../img/pastcollabs/fampay.png';
-import IWTMAImg from '../../img/pastcollabs/IWTMA.jpg';
-import EFImg from '../../img/pastcollabs/ethereum.png';
-import GocImg from '../../img/pastcollabs/gocomet.png';
-import OSImg from '../../img/pastcollabs/outscal.png';
 import GithubImg from '../../img/pastcollabs/github.png';
 import SketchImg from '../../img/pastcollabs/sketch.png';
-import VTImg from '../../img/pastcollabs/vitrendz.png';
 import CodechefImg from '../../img/pastcollabs/codechef.png';
-import DyteImg from '../../img/pastcollabs/dyte.png';
+
 import LinodeImg from '../../img/pastcollabs/linode.png';
 import VoiceflowImg from '../../img/pastcollabs/voiceflow.png';
 import CodexImg from '../../img/pastcollabs/codex.png';
@@ -25,21 +19,6 @@ import AWSImg from '../../img/pastcollabs/aws.png';
 import { Fade } from 'react-reveal';
 import './styles.css';
 const ccollabsData = [
-    {
-        name: "Ethereum Foundation",
-        image: EFImg,
-        link: 'https://ethereum.org/en/foundation/',
-    },
-    {
-        name: "Gocomet",
-        image: GocImg,
-        link: 'https://www.gocomet.com',
-    },
-    {
-        name: "Outscal",
-        image: OSImg,
-        link: 'https://www.outscal.com',
-    },
     {
         name: 'Balsamiq',
         image: BalsamiqImg,
@@ -51,11 +30,6 @@ const ccollabsData = [
         link: 'https://www.jetbrains.com/',
 	},
 	{
-        name: 'Wolfram',
-        image: WolframImg,
-        link: 'https://www.wolfram.com/',
-	},
-	{
         name: 'EchoAR',
         image: EchoARImg,
         link: 'https://www.echoar.xyz/',
@@ -64,16 +38,6 @@ const ccollabsData = [
         name: 'Fampay',
         image: FampayImg,
         link: 'https://www.fampay.in/',
-    },
-    {
-        name: 'Indian Wind Turbine Manufacturers Association',
-        image: IWTMAImg,
-        link: 'https://www.indianwindpower.com/',
-    },
-    {
-        name: 'Dyte',
-        image: DyteImg,
-        link: 'https://dyte.in/',
     },
     {
         name: 'Linode',
@@ -110,11 +74,6 @@ const ccollabsData = [
         image: AWSImg,
         link: 'https://aws.amazon.com/',
     }, 
-    // {
-    //     name: 'VITrendz',
-    //     image: VTImg,
-    //     link: 'https://www.vitrendz.tech/',
-    // }, 
     
 ];
 var ccollabComp = [];
@@ -140,11 +99,11 @@ for (const collab of ccollabsData) {
         </Col>
     );
 }
-const currentcollab = () => {
+const Collaborations = () => {
     return (
-        <Container className="blue-bg" id="sponsors" fluid style={{paddingTop: "5rem"}}>
+        <Container className="blue-bg" id="sponsors" fluid style={{paddingTop: "6.5rem"}}>
             <Row className="justify-content-center mb-5">
-                <h1 className="title" style={{textAlign:"center"}}>CURRENT COLLABORATORS</h1>
+                <h1 className="title" style={{textAlign:"center"}}>COLLABORATIONS</h1>
             </Row>
             <Container
                 style={{ backgroundColor: 'black' }}
@@ -152,10 +111,10 @@ const currentcollab = () => {
                 fluid
                 className="p-5"
             >
-                <Row>{ccollabComp}</Row>
+                <Row className="justify-content-center align-items-center">{ccollabComp}</Row>
             </Container>
         </Container>
     );
 };
 
-export default currentcollab;
+export default Collaborations;
