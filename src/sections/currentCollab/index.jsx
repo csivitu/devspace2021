@@ -110,11 +110,11 @@ const ccollabsData = [
         image: AWSImg,
         link: 'https://aws.amazon.com/',
     }, 
-    {
-        name: 'VITrendz',
-        image: VTImg,
-        link: 'https://www.vitrendz.tech/',
-    }, 
+    // {
+    //     name: 'VITrendz',
+    //     image: VTImg,
+    //     link: 'https://www.vitrendz.tech/',
+    // }, 
     
 ];
 var ccollabComp = [];
