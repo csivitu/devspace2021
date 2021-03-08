@@ -94,7 +94,6 @@ const Tracks = () => {
                                                 src={blockchain}
                                                 style={{
                                                     height: '2rem',
-                                                    width: '2rem',
                                                 }}
                                                 className="mb-2"
                                             />
