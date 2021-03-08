@@ -18,7 +18,7 @@ const ccollabsData = [
     {
         name: "Devcon",
         image: DevconImg,
-        link: 'https://www.outscal.com',
+        link: 'https://devcon.org/',
     },
 ];
 var ccollabComp = [];
@@ -46,7 +46,7 @@ for (const collab of ccollabsData) {
 }
 const CommunityPartners = () => {
     return (
-        <Container className="blue-bg" id="sponsors" fluid style={{paddingTop: "6.5rem"}}>
+        <Container className="blue-bg" id="sponsors" fluid style={{paddingTop: "6.5rem", paddingBottom: "6.5rem"}}>
             <Row className="justify-content-center mb-5">
                 <h1 className="title" style={{textAlign:"center"}}>COMMUNITY PARTNERS</h1>
             </Row>

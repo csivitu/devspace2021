@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IWTMAImg from '../../img/pastcollabs/IWTMA.jpg';
 import DyteImg from '../../img/pastcollabs/dyte.png';
-import DFImg from '../../img/pastcollabs/deepfactor.svg';
+import DFImg from '../../img/pastcollabs/deepfactor.png';
 
 
 import { Fade } from 'react-reveal';
