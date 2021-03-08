@@ -10,11 +10,13 @@ import educationFront from '../../img/education-1.png';
 import educationBack from '../../img/education-2.png';
 import defenseFront from '../../img/defense-1.png';
 import defenseBack from '../../img/defense-2.png';
-import fintechFront from '../../img/fintech-1.png';
-import fintechBack from '../../img/fintech-2.png';
+// import fintechFront from '../../img/fintech-1.png';
+// import fintechBack from '../../img/fintech-2.png';
 import openInnovationFront from '../../img/open-innovation-1.png';
 import openInnovationBack from '../../img/open-innovation-2.png';
 import industrialCollab from '../../img/industrialCollab.png';
+import blockchain from '../../img/blockchain.png';
+import ethImg from '../../img/hero/eth.png';
 
 import Pulse from 'react-reveal/Pulse';
 // import tracklogo from '../../img/track.png';
@@ -41,6 +43,88 @@ const Tracks = () => {
                 fluid
             >
                 <Row className="d-flex justify-content-center align-items-center pt-3">
+                    <Col className="mb-4 d-flex justify-content-center align-items-center">
+                        <div className="card-main">
+                            <div className="card-front">
+                                <Pulse>
+                                    <Container
+                                        fluid
+                                        style={{
+                                            height: '15rem',
+                                            width: '15rem',
+                                        }}
+                                        className="blue-bg d-flex flex-column justify-content-around align-items-center"
+                                    >
+                                        <Image
+                                            src={blockchain}
+                                            style={{
+                                                height: '6rem',
+                                            }}
+                                            className="mt-2"
+                                        />
+                                        <div>
+                                            <h4 className="white text-center">
+                                                BLOCKCHAIN
+                                            </h4>
+                                            <Row className="justify-content-center mt-2">
+                                                <h5 className="tags ph5">
+                                                    powered by &nbsp;
+                                                </h5>
+                                                <Image
+                                                    src={ethImg}
+                                                    className="eth-img-track pb-1"
+                                                />
+                                            </Row>
+                                        </div>
+                                    </Container>
+                                </Pulse>
+                            </div>
+                            <div className="card-back">
+                                <Pulse>
+                                    <Container
+                                        fluid
+                                        style={{
+                                            height: '15rem',
+                                            width: '15rem',
+                                        }}
+                                        className="white-bg d-flex flex-column justify-content-around align-items-center p-2"
+                                    >
+                                        <div className="d-flex flex-column justify-content-center align-items-center">
+                                            <Image
+                                                src={blockchain}
+                                                style={{
+                                                    height: '2rem',
+                                                    width: '2rem',
+                                                }}
+                                                className="mb-2"
+                                            />
+                                            <h5
+                                                className="black text-center trackh5"
+                                                style={{ margin: 0 }}
+                                            >
+                                                BLOCKCHAIN
+                                            </h5>
+                                            <hr
+                                                style={{
+                                                    width: '12rem',
+                                                    height: '2px',
+                                                }}
+                                                className="black-bg"
+                                            />
+                                        </div>
+                                        <div className="black text-center">
+                                            <p className="trackp">
+                                                “Blockchain symbolizes a shift
+                                                in power fom the centers to the
+                                                edges of the networks.”
+                                                <br />- William Mougayar
+                                            </p>
+                                        </div>
+                                    </Container>
+                                </Pulse>
+                            </div>
+                        </div>
+                    </Col>
                     <Col className="mb-4 d-flex justify-content-center align-items-center">
                         <div className="card-main">
                             <div className="card-front">
@@ -181,6 +265,8 @@ const Tracks = () => {
                             </div>
                         </div>
                     </Col>
+                </Row>
+                <Row className="d-flex justify-content-center align-items-center">
                     <Col className="mb-4 d-flex justify-content-center align-items-center">
                         <div className="card-main">
                             <div className="card-front">
@@ -252,9 +338,7 @@ const Tracks = () => {
                             </div>
                         </div>
                     </Col>
-                </Row>
-                <Row className="d-flex justify-content-center align-items-center">
-                <Col className="mb-4 d-flex justify-content-center align-items-center">
+                    <Col className="mb-4 d-flex justify-content-center align-items-center">
                         <div className="card-main">
                             <div className="card-front">
                                 <Pulse>
@@ -317,77 +401,6 @@ const Tracks = () => {
                                                 “Technology is a useful servant
                                                 but a dangerous master.”
                                                 <br />- Christan Lou Lang
-                                            </p>
-                                        </div>
-                                    </Container>
-                                </Pulse>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col className="mb-4 d-flex justify-content-center align-items-center">
-                        <div className="card-main">
-                            <div className="card-front">
-                                <Pulse>
-                                    <Container
-                                        fluid
-                                        style={{
-                                            height: '15rem',
-                                            width: '15rem',
-                                        }}
-                                        className="blue-bg d-flex flex-column justify-content-around align-items-center"
-                                    >
-                                        <Image
-                                            src={fintechFront}
-                                            style={{
-                                                height: '10rem',
-                                                width: '10rem',
-                                            }}
-                                        />
-                                        <h4 className="white text-center">
-                                            FINTECH AND CYBERSEC
-                                        </h4>
-                                    </Container>
-                                </Pulse>
-                            </div>
-                            <div className="card-back">
-                                <Pulse>
-                                    <Container
-                                        fluid
-                                        style={{
-                                            height: '15rem',
-                                            width: '15rem',
-                                        }}
-                                        className="white-bg d-flex flex-column justify-content-around align-items-center p-2"
-                                    >
-                                        <div className="d-flex flex-column justify-content-center align-items-center">
-                                            <Image
-                                                src={fintechBack}
-                                                style={{
-                                                    height: '2rem',
-                                                    width: '2rem',
-                                                }}
-                                                className="mb-2"
-                                            />
-                                            <h5
-                                                className="black text-center trackh5"
-                                                style={{ margin: 0 }}
-                                            >
-                                                FINTECH AND CYBERSEC
-                                            </h5>
-                                            <hr
-                                                style={{
-                                                    width: '12rem',
-                                                    height: '2px',
-                                                }}
-                                                className="black-bg"
-                                            />
-                                        </div>
-                                        <div className="black text-center">
-                                            <p className="trackp">
-                                                “Wealth attracts attention and
-                                                bad intentions. In a world where
-                                                data is wealth, it's a must to
-                                                safeguard ourselves.”
                                             </p>
                                         </div>
                                     </Container>
