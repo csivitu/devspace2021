@@ -113,10 +113,12 @@ const Tracks = () => {
                                         </div>
                                         <div className="black text-center">
                                             <p className="trackp">
-                                                “Blockchain symbolizes a shift
-                                                in power fom the centers to the
-                                                edges of the networks.”
-                                                <br />- William Mougayar
+                                                “Blockchain was designed to
+                                                record not just
+                                                financial-related transactions,
+                                                but virtually everything of
+                                                value.”
+                                                <br />- Olawale Daniel
                                             </p>
                                         </div>
                                     </Container>
