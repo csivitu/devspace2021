@@ -19,9 +19,9 @@ const workshop = () => {
             className="w-100 h-100 blue-bg"
             style={{ backgronudColor: '#00D5FF' }}
         >
-            <Container style={{ paddingTop: '5rem' }} className="blue-bg">
+            <Container style={{ paddingTop: '5rem' }} className="blue-bg pb-3">
                 <Row className="justify-content-center">
-                    <h1 style={{ color: '#141414' }}>
+                    <h1 style={{ color: '#141414', textAlign:"center" }}>
                         <b>PREVIOUS TALKS AND WORKSHOPS</b>
                     </h1>
                 </Row>

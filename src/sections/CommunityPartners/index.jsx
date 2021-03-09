@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import OSImg from '../../img/pastcollabs/outscal.png';
-import DevconImg from '../../img/pastcollabs/devcon.png';
+import DevconImg from '../../img/pastcollabs/devcon.jpeg';
 
 
 import { Fade } from 'react-reveal';

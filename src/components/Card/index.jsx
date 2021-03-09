@@ -18,9 +18,9 @@ const index = ({ topic, company, description, image }) => {
                     {company}
                 </h4>
                 <div>
-                    <h2 className="text-center" style={{ fontWeight: 900 }}>
+                    <h3 className="text-center" style={{ fontWeight: 900 }}>
                         {topic}
-                    </h2>
+                    </h3>
                     <hr id="bodyDivider" />
                 </div>
                 <Card.Text className="text-center">{description}</Card.Text>

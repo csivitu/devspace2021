@@ -9,12 +9,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import lawrence from '../img/lawrence.png';
 // import vishwa from '../img/vishwa.png';
 import ayush from '../img/talks/ayushlodhi.jpeg';
-import nills from '../img/talks/nillsfranssens.jpeg';
+import nills from '../img/talks/nillsfranssens.png';
 import anirudh from '../img/talks/anirudh.png';
 
 const talks = () => {
     return (
-        <div className="w-100 h-100 blue-bg" style={{ paddingBottom: '150px' }}>
+        <div className="w-100 h-100 blue-bg pt-2" style={{ paddingBottom: '50px' }}>
             <Container style={{ paddingTop: '5rem' }}>
                 <Row className="justify-content-center">
                     <h1 style={{ color: '#141414' }}>
@@ -45,7 +45,7 @@ const talks = () => {
                     >
                         <Card
                             company={'GoComet'}
-                            topic={'Ayush Lodhi'}
+                            topic={'AYUSH LODHI'}
                             description={
                                 'Get started with Open Source and Entrepreneurship'
                             }
@@ -59,7 +59,7 @@ const talks = () => {
                     >
                         <Card
                             company={'Microsoft'}
-                            topic={'Nills Franssens'}
+                            topic={'NILLS FRANSSENS'}
                             description={'Kubernetes, Deployment and Scaling.'}
                             image={nills}
                         />
@@ -71,7 +71,7 @@ const talks = () => {
                     >
                         <Card
                             company={'eBay'}
-                            topic={'Anirudh Muralidhar'}
+                            topic={'ANIRUDH MURALIDHAR'}
                             description={'Machine Learning and Data Science'}
                             image={anirudh}
                         />
