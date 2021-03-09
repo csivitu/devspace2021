@@ -37,8 +37,7 @@ const App = () => (
                     <Home />
                     <About />
                     <Talks />
-                    <PrevTalksAndWorkshops />
-                    
+                    {/* <PrevTalksAndWorkshops /> */}
                     <Hackathon />
                     <Tracks />
                     {/* <Timeline /> */}
