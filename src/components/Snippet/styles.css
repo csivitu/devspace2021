@@ -3,7 +3,7 @@
 }
 
 #main {
-    background-color : #141414;
+    background-color : black;
     border-radius: 0;
 }
 
@@ -21,8 +21,18 @@
 
 .snippet-image {
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 0rem;
+    right: 0rem;
     height: 10rem;
     width: auto;
 }
+/* 
+@media only screen and (min-width: 450px) {
+    .snippet-image {
+        position: absolute;
+        bottom: -3.5rem;
+        right: -3rem;
+        height: 10rem;
+        width: auto;
+    }
+} */

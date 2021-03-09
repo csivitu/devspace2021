@@ -3,6 +3,7 @@ import './styles.css';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 // import { Fade } from 'react-reveal';
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import { Fade } from 'react-reveal';
 const tinymessage = (props) => (
     // <Fade left>
     <Container id="main" className="px-5 mt-4 mx-4 snippet-main d-flex justify-content-start align-items-center">
