@@ -5,9 +5,12 @@ import Col from 'react-bootstrap/Col';
 import Card from '../components/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import mohanram from '../img/mohanram.png';
-import lawrence from '../img/lawrence.png';
-import vishwa from '../img/vishwa.png';
+// import mohanram from '../img/mohanram.png';
+// import lawrence from '../img/lawrence.png';
+// import vishwa from '../img/vishwa.png';
+import ayush from '../img/talks/ayushlodhi.jpeg';
+import nills from '../img/talks/nillsfranssens.jpeg';
+import anirudh from '../img/talks/anirudh.png';
 
 const talks = () => {
     return (
@@ -15,7 +18,7 @@ const talks = () => {
             <Container style={{ paddingTop: '5rem' }}>
                 <Row className="justify-content-center">
                     <h1 style={{ color: '#141414' }}>
-                        <b>PREVIOUS TALKS</b>
+                        <b>TALKS</b>
                     </h1>
                 </Row>
                 <Row className="justify-content-center">
@@ -23,11 +26,14 @@ const talks = () => {
                         className="text-muted "
                         style={{ fontFamily: 'Lato', fontWeight: '400' }}
                     >
-                        from industry-experts
+                        <b>from industry-experts</b>
                     </p>
                 </Row>
             </Container>
-            <Container className="d-flex justify-content-center align-items-center" fluid>
+            <Container
+                className="d-flex justify-content-center align-items-center"
+                fluid
+            >
                 <Row
                     className="justify-content-center pt-3"
                     style={{ maxWidth: '70rem' }}
@@ -38,12 +44,12 @@ const talks = () => {
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card
-                            company={'Digital Ocean'}
-                            topic={'MOHAN RAM'}
+                            company={'GoComet'}
+                            topic={'Ayush Lodhi'}
                             description={
-                                'Simplifying the Cloud a session on scaling.'
+                                'Get started with Open Source and Entrepreneurship'
                             }
-                            image={mohanram}
+                            image={ayush}
                         />
                     </Col>
                     <Col
@@ -52,12 +58,10 @@ const talks = () => {
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card
-                            company={'IBM'}
-                            topic={'LAWRENCE MOHANRAJ'}
-                            description={
-                                'Embracing innovation in the digital era.'
-                            }
-                            image={lawrence}
+                            company={'Microsoft'}
+                            topic={'Nills Franssens'}
+                            description={'Kubernetes, Deployment and Scaling.'}
+                            image={nills}
                         />
                     </Col>
                     <Col
@@ -66,10 +70,10 @@ const talks = () => {
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card
-                            company={'Mozilla'}
-                            topic={'VISHWAPRASATH K.S.'}
-                            description={'Web AR & Mixed reality on browsers.'}
-                            image={vishwa}
+                            company={'eBay'}
+                            topic={'Anirudh Muralidhar'}
+                            description={'Machine Learning and Data Science'}
+                            image={anirudh}
                         />
                     </Col>
                 </Row>

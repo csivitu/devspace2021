@@ -9,6 +9,10 @@ import watsonai from '../img/watsonai.png';
 import voiceui from '../img/voiceui.png';
 import competitivecoding from '../img/competitivecoding.png';
 
+import mohanram from '../img/mohanram.png';
+import lawrence from '../img/lawrence.png';
+import vishwa from '../img/vishwa.png';
+
 const workshop = () => {
     return (
         <div
@@ -18,20 +22,20 @@ const workshop = () => {
             <Container style={{ paddingTop: '5rem' }} className="blue-bg">
                 <Row className="justify-content-center">
                     <h1 style={{ color: '#141414' }}>
-                        <b>PREVIOUS WORKSHOPS</b>
+                        <b>PREVIOUS TALKS AND WORKSHOPS</b>
                     </h1>
                 </Row>
-                <Row className="justify-content-center">
+                {/* <Row className="justify-content-center">
                     <p
                         className="text-muted "
                         style={{ fontFamily: 'Lato', fontWeight: '400' }}
                     >
                         to learn and discover new skills
                     </p>
-                </Row>
+                </Row> */}
             </Container>
             <Container
-                className="d-flex justify-content-center align-items-center"
+                className="d-flex flex-column justify-content-center align-items-center"
                 fluid
             >
                 <Row
@@ -78,6 +82,51 @@ const workshop = () => {
                                 'Learn how to make Alexa sing to your tune.'
                             }
                             image={voiceui}
+                        />
+                    </Col>
+                </Row>
+                <Row
+                    className="justify-content-center pt-3"
+                    style={{ maxWidth: '70rem' }}
+                >
+                    <Col
+                        sm={7}
+                        md={4}
+                        className="mt-5 d-flex justify-content-center align-items-center"
+                    >
+                        <Card
+                            company={'Digital Ocean'}
+                            topic={'MOHAN RAM'}
+                            description={
+                                'Simplifying the Cloud a session on scaling.'
+                            }
+                            image={mohanram}
+                        />
+                    </Col>
+                    <Col
+                        sm={7}
+                        md={4}
+                        className="mt-5 d-flex justify-content-center align-items-center"
+                    >
+                        <Card
+                            company={'IBM'}
+                            topic={'LAWRENCE MOHANRAJ'}
+                            description={
+                                'Embracing innovation in the digital era.'
+                            }
+                            image={lawrence}
+                        />
+                    </Col>
+                    <Col
+                        sm={7}
+                        md={4}
+                        className="mt-5 d-flex justify-content-center align-items-center"
+                    >
+                        <Card
+                            company={'Mozilla'}
+                            topic={'VISHWAPRASATH K.S.'}
+                            description={'Web AR & Mixed reality on browsers.'}
+                            image={vishwa}
                         />
                     </Col>
                 </Row>
