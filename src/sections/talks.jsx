@@ -47,7 +47,7 @@ const talks = () => {
                             company={'GoComet'}
                             topic={'AYUSH LODHI'}
                             description={
-                                'Get started with Open Source and Entrepreneurship'
+                                'Open Source and Entrepreneurship'
                             }
                             image={ayush}
                         />
