@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import OSImg from '../../img/pastcollabs/outscal.png';
 import DevconImg from '../../img/pastcollabs/devcon.jpeg';
+import VTImg from '../../img/pastcollabs/vitrendz.png';
 
 
 import { Fade } from 'react-reveal';
@@ -19,6 +20,11 @@ const ccollabsData = [
         name: "Devcon",
         image: DevconImg,
         link: 'https://devcon.org/',
+    },
+    {
+        name: "VITrendz",
+        image: VTImg,
+        link: 'https://www.vitrendz.tech/',
     },
 ];
 var ccollabComp = [];
