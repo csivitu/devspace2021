@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IWTMAImg from '../../img/pastcollabs/IWTMA.jpg';
-import DyteImg from '../../img/pastcollabs/dyte.png';
 import DFImg from '../../img/pastcollabs/deepfactor.png';
 
 
@@ -15,11 +14,6 @@ const ccollabsData = [
         name: 'Indian Wind Turbine Manufacturers Association',
         image: IWTMAImg,
         link: 'https://www.indianwindpower.com/',
-    },
-    {
-        name: 'Dyte',
-        image: DyteImg,
-        link: 'https://dyte.in/',
     },
     {
         name: 'Deepfactor',

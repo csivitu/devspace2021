@@ -4,6 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import GocImg from '../../img/pastcollabs/gocomet.png';
+import DyteImg from '../../img/pastcollabs/dyte.png';
+
 
 import { Fade } from 'react-reveal';
 import './styles.css';
@@ -12,6 +14,11 @@ const ccollabsData = [
         name: "Gocomet",
         image: GocImg,
         link: 'https://www.gocomet.com',
+    },
+    {
+        name: 'Dyte',
+        image: DyteImg,
+        link: 'https://dyte.in/',
     },
 ];
 var ccollabComp = [];
