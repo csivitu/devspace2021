@@ -4,22 +4,26 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import OSImg from '../../img/pastcollabs/outscal.png';
-import DevconImg from '../../img/pastcollabs/devcon.jpeg';
-import VTImg from '../../img/pastcollabs/vitrendz.png';
-
+import GirlscriptImg from '../../img/pastcollabs/girlscript-12.jpeg';
+import GsyayImg from '../../img/pastcollabs/gsyay.png';
+import './styles.css';
 
 import { Fade } from 'react-reveal';
-import './styles.css';
 const ccollabsData = [
     {
-        name: "Devcon",
-        image: DevconImg,
-        link: 'https://devcon.org/',
+        name: "Outscal",
+        image: OSImg,
+        link: 'https://www.outscal.com',
     },
     {
-        name: "VITrendz",
-        image: VTImg,
-        link: 'https://www.vitrendz.tech/',
+        name: "Girlscipt",
+        image: GirlscriptImg,
+        link: 'https://www.girlscript.tech/',
+    },
+    {
+        name: "GS YAY",
+        image: GsyayImg,
+        link: 'https://www.gsyay.com/',
     },
 ];
 var ccollabComp = [];
@@ -34,22 +38,20 @@ for (const collab of ccollabsData) {
             <Fade bottom>
                 <a target="_blank" href={collab.link} rel="noreferrer">
                     <img
-                        className="mx-auto"
+                        className={`mx-auto ocp-img ${collab.name}`}
                         src={collab.image}
                         alt={collab.name}
-                        width="80%"
-                        height="80%"
                     />
                 </a>
             </Fade>
         </Col>
     );
 }
-const CommunityPartners = () => {
+const OnlineLearningPartners = () => {
     return (
-        <Container className="blue-bg" id="sponsors" fluid style={{paddingTop: "6.5rem", paddingBottom: "6.5rem"}}>
+        <Container className="blue-bg" id="sponsors" fluid style={{paddingTop: "6.5rem"}}>
             <Row className="justify-content-center mb-5">
-                <h1 className="title" style={{textAlign:"center"}}>COMMUNITY PARTNERS</h1>
+                <h1 className="title" style={{textAlign:"center"}}>SPONSORS</h1>
             </Row>
             <Container
                 style={{ backgroundColor: 'black' }}
@@ -63,4 +65,4 @@ const CommunityPartners = () => {
     );
 };
 
-export default CommunityPartners;
+export default OnlineLearningPartners;

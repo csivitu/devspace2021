@@ -26,6 +26,7 @@ const CommunityPartners = React.lazy(() => import('./sections/CommunityPartners'
 // const Timeline = React.lazy(() => import('./sections/Timeline'));
 const CodeOfConduct = React.lazy(() => import('./sections/CodeOfConduct'));
 const Badge = React.lazy(() => import('./sections/Badge'));
+const OnlineLearningPartners = React.lazy(() => import('./sections/OnlineLearningPartners'));
 // const Testimonials = React.lazy(()=>import('./sections/Testimonials'))
 
 const App = () => (
@@ -49,6 +50,7 @@ const App = () => (
                     <IndustrialPartner />
                     <Sponsors />
                     <Collaborations />
+                    <OnlineLearningPartners />
                     <CommunityPartners />
                     {/* <Collabs /> */}
                     <Gallery />
