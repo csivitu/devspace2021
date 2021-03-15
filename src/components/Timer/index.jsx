@@ -44,10 +44,10 @@ export default function Timer(props) {
         const s = seconds.toString().padStart(2, '0');
         return (
             <Row className="text-center" style={{ zIndex: 10 }}>
-                <h2 className="timeNumber">{d}</h2><h4 className="time">d</h4><h2 className="timeNumber">&nbsp;:&nbsp;</h2>
-                <h2 className="timeNumber">{h}</h2><h4 className="time">h</h4><h2 className="timeNumber">&nbsp;:&nbsp;</h2>
-                <h2 className="timeNumber">{m}</h2><h4 className="time">m</h4><h2 className="timeNumber">&nbsp;:&nbsp;</h2>
-                <h2 className="timeNumber">{s}</h2><h4 className="time">s</h4>
+                <h2 className="timeNumber">{d}</h2><h2 className="time">d</h2><h2 className="timeNumber">&nbsp;:&nbsp;</h2>
+                <h2 className="timeNumber">{h}</h2><h2 className="time">h</h2><h2 className="timeNumber">&nbsp;:&nbsp;</h2>
+                <h2 className="timeNumber">{m}</h2><h2 className="time">m</h2><h2 className="timeNumber">&nbsp;:&nbsp;</h2>
+                <h2 className="timeNumber">{s}</h2><h2 className="time">s</h2>
             </Row>
         );
     };
