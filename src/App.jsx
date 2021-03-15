@@ -55,7 +55,7 @@ const App = () => (
                     {/* <Collabs /> */}
                     <Gallery />
                     <Footer />
-                    <DiscordButton />
+                    {/* <DiscordButton /> */}
                 </Route>
                 <Route path="/codeofconduct">
                     <CodeOfConduct />

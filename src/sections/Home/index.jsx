@@ -1,10 +1,6 @@
 import React from 'react';
-import {
-    Row,
-    Container,
-    Image,
-    Button
-} from 'react-bootstrap';
+import { Row, Container, Image, Button } from 'react-bootstrap';
+import Timer from '../../components/Timer';
 import Devspacejumbo from '../../img/DevspaceJumbotron.svg';
 import './styles.css';
 import herovideo from '../../img/hero/hero.mp4';
@@ -16,11 +12,9 @@ function home(props) {
         <Container
             className="home-section vh-100 vw-100 white"
             fluid
-            style={{ position: 'relative', overflow: "hidden" }}
+            style={{ position: 'relative', overflow: 'hidden' }}
         >
-            <div className="bg-overlay">
-
-            </div>
+            <div className="bg-overlay"></div>
             {/* <div className="bg-image">
                 <img src={heroimg} alt="BGIMAGE"/>
             </div> */}
@@ -48,10 +42,8 @@ function home(props) {
                         &nbsp; Workshops
                         &nbsp;&nbsp;| &nbsp;&nbsp; Talks
                     </h2> */}
-                    <h5 className="tags">
-                        driven by &nbsp;
-                    </h5>
-                    <Image src={ ethImg } className="eth-img pb-1" />
+                    <h5 className="tags">driven by &nbsp;</h5>
+                    <Image src={ethImg} className="eth-img pb-1" />
                 </Row>
                 {/* <Row className="justify-content-center text-center mt-5">
                     <h4 className="px-3">
@@ -62,7 +54,16 @@ function home(props) {
                     </h4>
                 </Row> */}
                 <Row className="text-center mt-5" style={{ zIndex: 10 }}>
-                    <Button id="registerbutton" className="primary-button" href="https://devspace.hackerearth.com/">
+                    <Timer
+                        timeInDateFormat={+new Date('March 19, 2021 10:30:00')}
+                    />
+                </Row>
+                <Row className="text-center mt-5" style={{ zIndex: 10 }}>
+                    <Button
+                        id="registerbutton"
+                        className="primary-button"
+                        href="https://devspace.hackerearth.com/"
+                    >
                         REGISTER
                     </Button>
                 </Row>

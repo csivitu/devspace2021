@@ -1,0 +1,7 @@
+.time, .timeNumber {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	margin:0;
+	padding:0;
+}
