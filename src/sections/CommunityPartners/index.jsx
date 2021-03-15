@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import OSImg from '../../img/pastcollabs/outscal.png';
 import DevconImg from '../../img/pastcollabs/devcon.jpeg';
 import VTImg from '../../img/pastcollabs/vitrendz.png';
-
+import GirlscriptImg from '../../img/pastcollabs/girlscript-12.jpeg';
 
 import { Fade } from 'react-reveal';
 import './styles.css';
@@ -15,6 +15,11 @@ const ccollabsData = [
         name: "Devcon",
         image: DevconImg,
         link: 'https://devcon.org/',
+    },
+    {
+        name: "Girlscipt",
+        image: GirlscriptImg,
+        link: 'https://www.girlscript.tech/',
     },
     {
         name: "VITrendz",

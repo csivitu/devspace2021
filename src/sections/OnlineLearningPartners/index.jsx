@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import OSImg from '../../img/pastcollabs/outscal.png';
-import GirlscriptImg from '../../img/pastcollabs/girlscript-12.jpeg';
 import GsyayImg from '../../img/pastcollabs/gsyay.png';
 import './styles.css';
 
@@ -14,11 +13,6 @@ const ccollabsData = [
         name: "Outscal",
         image: OSImg,
         link: 'https://www.outscal.com',
-    },
-    {
-        name: "Girlscipt",
-        image: GirlscriptImg,
-        link: 'https://www.girlscript.tech/',
     },
     {
         name: "GS YAY",
