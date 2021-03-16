@@ -58,7 +58,7 @@ function home(props) {
                         timeInDateFormat={+new Date('March 19, 2021 10:30:00')}
                     />
                 </Row>
-                <Row className="text-center mt-5" style={{ zIndex: 10 }}>
+                <Row className="text-center my-5" style={{ zIndex: 10 }}>
                     <Button
                         id="registerbutton"
                         className="primary-button"
