@@ -9,7 +9,7 @@ const Navigation = React.lazy(() => import('./components/Navigation'));
 const DiscordButton = React.lazy(() => import('./components/DiscordButton'));
 const Home = React.lazy(() => import('./sections/Home'));
 const About = React.lazy(() => import('./sections/About'));
-const PrevTalksAndWorkshops = React.lazy(() => import('./sections/workshop'));
+const Workshops = React.lazy(() => import('./sections/workshops'));
 const Talks = React.lazy(() => import('./sections/talks'));
 const Hackathon = React.lazy(() => import('./sections/Hackathon'));
 const Tracks = React.lazy(() => import('./sections/Tracks'));
@@ -38,7 +38,7 @@ const App = () => (
                     <Home />
                     <About />
                     <Talks />
-                    {/* <PrevTalksAndWorkshops /> */}
+                    <Workshops />
                     <Hackathon />
                     <Tracks />
                     {/* <Timeline /> */}

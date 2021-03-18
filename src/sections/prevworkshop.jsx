@@ -13,6 +13,8 @@ import mohanram from '../img/mohanram.png';
 import lawrence from '../img/lawrence.png';
 import vishwa from '../img/vishwa.png';
 
+import sakshi from '../img/sakshi'
+
 const workshop = () => {
     return (
         <div
