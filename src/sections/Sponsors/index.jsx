@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import IWTMAImg from '../../img/pastcollabs/IWTMA.jpg';
 import DFImg from '../../img/pastcollabs/deepfactor.png';
+import AbjImg from '../../img/pastcollabs/abjayon.png'
 
 
 import { Fade } from 'react-reveal';
@@ -20,6 +21,11 @@ const ccollabsData = [
         image: DFImg,
         link: 'https://www.deepfactor.io/',
     },
+    {
+        name: "Abjayon",
+        image: AbjImg,
+        link: "https://www.abjayon.com/"
+    }
     
 ];
 var ccollabComp = [];
