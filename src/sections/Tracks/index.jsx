@@ -84,8 +84,8 @@ const Tracks = () => {
                                     <Container
                                         fluid
                                         style={{
-                                            height: '12rem',
-                                            width: '12rem',
+                                            height: '15rem',
+                                            width: '15rem',
                                         }}
                                         className="white-bg d-flex flex-column justify-content-around align-items-center p-2"
                                     >
@@ -156,8 +156,8 @@ const Tracks = () => {
                                     <Container
                                         fluid
                                         style={{
-                                            height: '12rem',
-                                            width: '12rem',
+                                            height: '15rem',
+                                            width: '15rem',
                                         }}
                                         className="white-bg d-flex flex-column justify-content-around align-items-center p-2"
                                     >
