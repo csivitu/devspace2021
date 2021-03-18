@@ -68,6 +68,7 @@ const talks = () => {
                                 'AWS Lambda, Serverless and Event driven architecture'
                             }
                             image={sakshi}
+                            link="https://attendee.gotowebinar.com/register/2939999948313755919"
                         />
                     </Col>
                     <Col
@@ -80,6 +81,7 @@ const talks = () => {
                             topic={'SHREYAS HARIHARAN'}
                             description={'Decentralizing the internet with Ethereum'}
                             image={shreyas}
+                            link="https://www.youtube.com/watch?v=XsHR2E4a_zg"
                         />
                     </Col>
                 </Row>

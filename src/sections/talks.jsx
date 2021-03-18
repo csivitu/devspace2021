@@ -14,7 +14,7 @@ import anirudh from '../img/talks/anirudh.png';
 
 const talks = () => {
     return (
-        <div className="w-100 h-100 blue-bg pt-2" style={{ paddingBottom: '50px' }}>
+        <div className="w-100 h-100 blue-bg pt-2">
             <Container style={{ paddingTop: '5rem' }}>
                 <Row className="justify-content-center">
                     <h1 style={{ color: '#141414' }}>
@@ -46,10 +46,9 @@ const talks = () => {
                         <Card
                             company={'GoComet'}
                             topic={'AYUSH LODHI'}
-                            description={
-                                'Open Source and Entrepreneurship'
-                            }
+                            description={'Open Source and Entrepreneurship'}
                             image={ayush}
+                            link="https://www.youtube.com/watch?v=3WNb_FN3IS4"
                         />
                     </Col>
                     <Col
@@ -62,6 +61,7 @@ const talks = () => {
                             topic={'NILLS FRANSSENS'}
                             description={'Kubernetes, Deployment and Scaling.'}
                             image={nills}
+                            link="https://www.youtube.com/watch?v=OqsKBkWvZ8c"
                         />
                     </Col>
                     <Col
@@ -74,6 +74,7 @@ const talks = () => {
                             topic={'ANIRUDH MURALIDHAR'}
                             description={'Machine Learning and Data Science'}
                             image={anirudh}
+                            link="https://www.youtube.com/watch?v=W1wKC5XqbMA"
                         />
                     </Col>
                 </Row>
