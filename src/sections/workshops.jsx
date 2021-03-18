@@ -13,6 +13,7 @@ import nills from '../img/talks/nillsfranssens.png';
 import anirudh from '../img/talks/anirudh.png';
 
 import sakshi from '../img/talks/sakshi.jpeg';
+import shreyas from '../img/talks/shreyas.jpeg';
 
 const talks = () => {
     return (
@@ -40,7 +41,7 @@ const talks = () => {
                     className="justify-content-center pt-3"
                     style={{ maxWidth: '70rem' }}
                 >
-                    <Col
+                    {/* <Col
                         sm={7}
                         md={4}
 						className="mt-5 d-flex justify-content-center align-items-center"
@@ -54,10 +55,10 @@ const talks = () => {
                             description={'Kubernetes, Deployment and Scaling.'}
                             image={nills}
                         />
-					</Col>
+					</Col> */}
 					<Col
                         sm={7}
-                        md={4}
+                        md={6}
                         className="mt-5 d-flex justify-content-center align-items-center"
                     >
                         <Card
@@ -71,17 +72,14 @@ const talks = () => {
                     </Col>
                     <Col
                         sm={7}
-                        md={4}
+                        md={6}
 						className="mt-5 d-flex justify-content-center align-items-center"
-						style={{
-							visibility: "hidden"
-						}}
                     >
                         <Card
-                            company={'eBay'}
-                            topic={'ANIRUDH MURALIDHAR'}
-                            description={'Machine Learning and Data Science'}
-                            image={anirudh}
+                            company={'ETHEREUM'}
+                            topic={'SHREYAS HARIHARAN'}
+                            description={'Decentralizing the internet with Ethereum'}
+                            image={shreyas}
                         />
                     </Col>
                 </Row>
