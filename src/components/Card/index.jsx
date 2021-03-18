@@ -31,7 +31,7 @@ const index = ({ topic, company, description, image, link }) => {
             <Pulse>
                 <Button
                     className="secondary-button get-your-badge-button"
-                    href={{link}}
+                    href={link}
                     target="_blank"
                 >
                     SET REMINDER
