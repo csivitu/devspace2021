@@ -93,7 +93,7 @@ const Tracks = () => {
                                             <Image
                                                 src={blockchain}
                                                 style={{
-                                                    height: '2rem',
+                                                    height: '1.5rem',
                                                 }}
                                                 className="mb-2"
                                             />
@@ -165,7 +165,7 @@ const Tracks = () => {
                                             <Image
                                                 src={industrialCollab}
                                                 style={{
-                                                    height: '2rem',
+                                                    height: '1.5rem',
                                                 }}
                                                 className="mb-2"
                                             />
