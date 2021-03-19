@@ -53,11 +53,11 @@ function home(props) {
                         finest, compete with the brightest.
                     </h4>
                 </Row> */}
-                <Row className="text-center mt-5" style={{ zIndex: 10 }}>
+                {/*<Row className="text-center mt-5" style={{ zIndex: 10 }}>
                     <Timer
                         timeInDateFormat={+new Date('March 19, 2021 10:30:00')}
                     />
-                </Row>
+                </Row>*/}
                 <Row className="text-center my-5" style={{ zIndex: 10 }}>
                     <Button
                         id="registerbutton"
