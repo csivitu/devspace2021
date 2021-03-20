@@ -6,7 +6,7 @@ import './styles.css';
 
 const CodeOfConduct = () => {
     return (
-        <Container fluid className="vw-100 black-bg">
+        <Container fluid className="vw-100 black-bg d-flex flex-column justify-content-center align-items-center">
             <Row className="justify-content-center pt-5">
                 <Link to="/">
                     <Image
@@ -92,6 +92,66 @@ const CodeOfConduct = () => {
                     commitment towards helping us keep it this way. Thank you
                     and happy hacking!
                 </p>
+            </Row>
+            <Row className="mt-4 justify-content-center white justify-content-center coc-ol px-5">
+                <h2><b className="mb-4">Intellectual Property Declaration</b></h2>
+                <br />
+                <br />
+                <br />
+                By registering for Devspace, I declare that I am the original
+                author of the submission and any associated form of Intellectual
+                Property Rights therein. Submission would include any
+                information or material created, developed, or submitted as a
+                participant during the event.
+                <br />
+                I hereby unconditionally and without any restriction, agree to
+                grant the Company, its affiliates, and its subsidiaries all
+                rights, title, and interest in and to the submission including
+                all Intellectual Property Rights and moral rights to use,
+                reproduce, adapt, modify, publish, distribute, publicly perform,
+                create a derivative work from, and publicly display the
+                submission.
+                <br />
+                No confidential information or unauthorized usage of any source
+                code, documentation, data points, or any other information
+                relating to any third-party is used or included in my
+                submission. If I use any third-party material or open source
+                edition, I will comply with associate license and furnish
+                related complete and accurate information {'&'} details to the
+                event organizer.
+                <br />
+                I shall indemnify and hold the Company harmless from and against
+                any third-party claims arising from my act or submission
+                committed during the event.
+                <br />
+                The data sets and platforms made available by the Company to the
+                participant remain the sole and exclusive property of the
+                organization and should not be stored, reverse-engineered,
+                copied, deduced, extracted, shared or replicated in any manner
+                or medium whatsoever by the participant.
+                <br />
+                <br />
+                <br />
+                By registering for Devspace, I acknowledge and agree, in
+                consideration of entering this event, that
+                <ol>
+                    <li>
+                        I will not develop or submit the same or similar
+                        submission in any other competition, or similar event
+                        organized by any third-party.
+                    </li>
+                    <li>
+                        All intellectual property rights in the entry submitted
+                        by me shall vest exclusively with the Company.
+                    </li>
+                    <li>
+                        I have read and understood the terms, and I understand
+                        that any non- adherence to the above could lead to
+                        strict legal action including immediate disqualification
+                        from the event and backlisting from any future
+                        event/collaboration held by the Company.
+                    </li>
+                </ol>
             </Row>
             <Row className="justify-content-center white py-5">
                 <a href="/" className="white">
