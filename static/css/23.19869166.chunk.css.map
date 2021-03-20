@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/sections/Gallery/style.css"],"names":[],"mappings":"AAAA,eACI,qBAAuB,CACvB,aACJ","file":"23.19869166.chunk.css","sourcesContent":["#gallcontainer{\n    background-color: black;\n    color: #FFFAFF;\n}"]}
