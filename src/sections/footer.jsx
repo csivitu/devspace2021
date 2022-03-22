@@ -73,13 +73,23 @@ const Footer = () => {
                         </p>
                         <p>
                             Phone -{' '}
-                            <a href="tel:+919833576287" className="white">
-                                +91 98335 76287
+	                    <a href="tel:+919914913149" className="white">
+	                        +91 9914913149
+	                    </a>
+	                    <br />
+	                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	                    <a href="tel:+919910608505" className="white">
+	    			+91 9910608505
+	                    </a>
+	                    <br />
+	                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <a href="tel:+918764252221" className="white">
+                                +91 8764252221
                             </a>
                             <br />
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                            <a href="tel:+919777615319" className="white">
-                                +91 97776 15319
+                            <a href="tel:+919445876588" className="white">
+                                +91 9445876588
                             </a>
                         </p>
                         <h3 style={{ color: '#00D5FF' }} className="pt-3">
@@ -141,7 +151,7 @@ const Footer = () => {
                         </p>
                         <p className="mt-4">
                             <i>
-                                <a href="/codeofconduct" className="white">
+                                <a href="https://mlh.io/code-of-conduct" className="white">
                                     <u>Code of Conduct</u>
                                 </a>
                             </i>

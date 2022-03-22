@@ -42,8 +42,6 @@ function home(props) {
                         &nbsp; Workshops
                         &nbsp;&nbsp;| &nbsp;&nbsp; Talks
                     </h2> */}
-                    <h5 className="tags">driven by &nbsp;</h5>
-                    <Image src={ethImg} className="eth-img pb-1" />
                 </Row>
                 {/* <Row className="justify-content-center text-center mt-5">
                     <h4 className="px-3">
@@ -62,9 +60,8 @@ function home(props) {
                     <Button
                         id="registerbutton"
                         className="primary-button"
-                        href="https://devspace.hackerearth.com/"
-                    >
-                        REGISTER
+                        href="https://csivitu.typeform.com/to/uABbT9j0"                    >
+                        RSVP
                     </Button>
                 </Row>
             </Container>
