@@ -54,7 +54,7 @@ const CommunityPartners = () => {
     return (
         <Container className="blue-bg" id="sponsors" fluid style={{paddingTop: "6.5rem", paddingBottom: "6.5rem"}}>
             <Row className="justify-content-center mb-5">
-                <h1 className="title" style={{textAlign:"center"}}>COMMUNITY PARTNERS</h1>
+                <h1 className="title" style={{textAlign:"center"}}>COMMUNITY PARTNERS 2021</h1>
             </Row>
             <Container
                 style={{ backgroundColor: 'black' }}

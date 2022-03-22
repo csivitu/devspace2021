@@ -11,7 +11,7 @@ const Hackathon = () => {
             style={{ paddingTop: '5rem'}}
         >
             <h1 className="text-center py-5">
-                <b>HACKATHON</b>
+                <b>HACKATHON 2021</b>
             </h1>
             <div className="hackathon-text p-5" style={{position: "relative"}}>
                 <p

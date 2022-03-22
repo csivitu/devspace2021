@@ -18,7 +18,7 @@ const talks = () => {
             <Container style={{ paddingTop: '5rem' }}>
                 <Row className="justify-content-center">
                     <h1 style={{ color: '#141414' }}>
-                        <b>KEYNOTES</b>
+                        <b>KEYNOTES 2021</b>
                     </h1>
                 </Row>
                 <Row className="justify-content-center">

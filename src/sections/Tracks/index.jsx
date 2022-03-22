@@ -32,7 +32,7 @@ const Tracks = () => {
         >
             <Row className="justify-content-center">
                 <h1>
-                    <b>TRACKS</b>
+                    <b>TRACKS 2021</b>
                 </h1>
             </Row>
             <Row className="justify-content-center">
